@@ -27,3 +27,53 @@ In a reciprocal transplant experiment that I ran last year, I found that Dabob o
 | 6/2/2015  | Begin Revising Paper                     | Revise paper for publication                                   |
 
 ##Methods
+From Manchester, I will collected 100 oysters from each population (300 total). 50 From each will be used for my experiment and 25 from each will be used for each lab section. 
+
+The animals will be housed in FSH Aquarium room for 1 week prior to experiment to condition in the lab. FSH aquarium room aquarium should have a strong bacterial colony to support the animals. I will add shellfish diet to the animals every other day while they are conditioning. 
+
+###On experiment day:
+
+- Collect 20 pre heat shock samples from each group
+- Place 30 animals on dry trays with a heating element keeping temps at 37C
+- Stress for 1 hour
+- Immediately sample 20 animals from each group post heat shock
+- Place the remaining animals in aquarium 
+- Sample remaining animals 24 hours post stress
+
+###Sampling procedure:
+
+- Use flame sterilized utensils
+- Collect Mantle Tissue
+- Place in clean 1.5 ml microcentrifuge tube
+- Add 1 ml RNAlater
+- Store appropriately
+
+###RNA Process:
+- RNAzol BD for RNA Extraction
+- Completed undervent hood with sterile conditions
+- Once RNA Isolation Complete begin cDNA creation
+
+###cDNA Creation:
+- Use standard cDNA creation kit on RNA samples
+- cDNA used for qPCR
+
+###qPCR
+- Use HSP70 as target primer (In Jake's Primer Box 209)
+- Use Actin as control primer(In Jake's Primer Box 209)
+- Run with protocol described [here](http://genefish.wikispaces.com/Jake%27s+Notebook)
+
+##Materials
+- Isolation boxes for aquarium room
+- shellfish diet
+- Tray for experiment
+- Heat source for experiment
+- microcentrifuge tubes
+- RNAlater
+- RNAzol BD
+- cDNA kit
+- Ssofast qPCR kit
+- HSP70 and Actin primers
+- qPCR Machine
+- qPCR plate
+- Clear Stripcaps
+
