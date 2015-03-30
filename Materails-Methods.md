@@ -1,0 +1,3 @@
+#Materials and Methods
+
+Sites for adaptively different broodstock were selected based on which Puget Sound basin and distance between sites as well as other parameters such as water temperatures, historic studies of the species in the region, and anecdotal evidence of dissimilarities between populations. We chose Dabob Bay, Fidalgo Bay, and Oyster Bay to collect broodstock. Puget Sound Restoration Fund 
