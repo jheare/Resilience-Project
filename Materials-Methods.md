@@ -11,4 +11,8 @@ The populations were then split into two groups with 25 oysters in the Control g
 
 ##Sampling
 Using RNAlater and flame sterilized equipment, mantle and ctenidia tissues will be collected from 10 oysters in each group from each population 1 hour post heat stress. After 24 hours, a second sample of 5 oysters from each population in each group will be collected. The remaining ten oysters will be monitored for 7 days post the experiment for mortality events. At the end of the week, the remaining oysters will also be sampled for mRNA using the same protocol. 
-##qPCR
+##RNA, cDNA, qPCR
+RNA will be extracted using Trizol under sterile conditions. The mRNA will then be converted to cDNA using the kit ?????. Once cDNA is created we will run a qPCR on it using ????? primers for Actin and HSP70 respectively. 
+
+##Statistical Analysis
+Data from qPCR and from the monitoring will be analyized in R programming language using the base statistical analysis program and ggplot2. 
