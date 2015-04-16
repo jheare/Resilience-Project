@@ -1,0 +1,5 @@
+#Experiment Plan
+____
+
+Each population has 66 oysters (n=190) held at 8 C for 2 weeks prior to experiment. The 66 oysters will be split into three categories: Control (no stress), Mechanical stress, Heat stress.  Control animals will be held at 8 C and only removed and replaced in water to simulate the moving of the other oysters to the mechanical stress and heat stress chambers. Heat stress will be performed by placing a beaker of seawater in a water bath set to 38 C (based on Brown et al. 2004). Once the seawater reaches 38 C 22 olympia oysters from each population will be dropped into individual beakers and remain in the heated water for 1 hour.  Mechanical stress will be performed by centrifuging 22 oysters from each population for 5 minutes at 1000 rpm. 
+Tissues from oysters will be sampled after stress exposure and placed in RNAlater (or liquid nitrogen) for RNA Isolation. 
