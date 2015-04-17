@@ -13,7 +13,7 @@ Once the seawater reaches 38&deg;C 22 olympia oysters from each population will 
 
 Mechanical stress will be performed by centrifuging 22 oysters from each population for 5 minutes at 1000 rpm (Roberts et al. 2011). 
 
-Tissues from oysters will be sampled after stress exposure and placed in RNAlater (or liquid nitrogen) for RNA Isolation. 
+Tissues (Mantle/Ctendia) from oysters will be sampled after stress exposure and placed in RNAlater (or liquid nitrogen) for RNA Isolation. 
 
 | Group | Control/N | Control/H | Control/S | Mech/N | Mech/H | Mech/S | Heat/N | Heat/H | Heat/S |
 |--------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
@@ -27,3 +27,27 @@ Tissues from oysters will be sampled after stress exposure and placed in RNAlate
 | Recovery | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase |
 | Mortality | Caspase | Caspase | Caspase | Caspase | Caspase | Caspase | Caspase | Caspase | Caspase |
 | Feeding | amylase | amylase | amylase | amylase | amylase | amylase | amylase | amylase | amylase |
+
+
+Equipment needed:
+
+- 3 500 ml Beakers
+- Water bath to accomodate 3 500 ml Beakers
+- Centrifuge
+- Centrifuge buckets
+- Thermometers
+- RNAlater
+- liquid nitro
+- holding baskets for aquarium
+- sample tubes with fitted pestles
+- Trizol
+- cDNA kit
+- qPCR kit
+- Primers
+	- HSP70
+	- HSP69
+	- citrate synthase
+	- glutamine synthetase
+	- caspase
+	- amylase
+
