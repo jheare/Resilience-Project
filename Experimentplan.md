@@ -56,8 +56,8 @@ Prior to experiment oysters at 8&deg;C, fed daily.
 
 Experiment
 
-- 22 oysters each pop dropped into prewarmed 38 C sea water (1 hr timer started)
-- 22 oysters from 1 pop dropped into salad spinner spun for 5 minutes
+- 22 oysters each pop dropped (stagger each pop by 10 minutes) into prewarmed 38 C sea water (1 hr timer started)
+- 22 oysters from 1 pop dropped into salad spinner (stagger each pop by 10 minutes) spun for 5 minutes
 - repeat with other two pops (30 minutes total)
 - mechanical animals returned to 8&deg;C water
 - heat stress ends, animals returned to 8&deg;C water.
@@ -67,7 +67,7 @@ Samples collected
 - 1 hour post exposure 5 animals from each group
 - mantle/ctenidia sampled
 - 12 hours post exposure 5 animals each pop
-- mantle/ctendia sampled
+- mantle/ctenidia sampled
 
 RNA Isolation (24-48 hours)
 Trizol protocol ASAP
