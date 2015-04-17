@@ -15,19 +15,18 @@ Mechanical stress will be performed by centrifuging 22 oysters from each populat
 
 Tissues (Mantle/Ctendia) from oysters will be sampled after stress exposure and placed in RNAlater (or liquid nitrogen) for RNA Isolation. 
 
-| Group | Control/N | Control/H | Control/S | Mech/N | Mech/H | Mech/S | Heat/N | Heat/H | Heat/S |
+| Group        | Control/N             | Control/H             | Control/S             | Mech/N                | Mech/H                | Mech/S                | Heat/N                | Heat/H                | Heat/S                |
 |--------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
-| n | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 22 | 22 |
-| Treament | 8&deg;C/1 Hr | 8&deg;C/1 Hr | 8&deg;C/1 Hr | 1000 rpm/ 5 min | 1000 rpm/ 5 min | 1000 rpm/ 5 min | 38&deg;C/ 1 hr | 38&deg;C/ 1 hr | 38&deg;C/ 1 hr |
-| Sample | 5 post/5 24 hr | 5 post/5 24 hr | 5 post/5 24 hr | 5 post/5 24 hr | 5 post/5 24 hr | 5 post/5 24 hr | 5 post/5 24 hr | 5 post/5 24 hr | 5 post/5 24 hr |
-| Monitor | 12 animal/2 weeks | 12 animal/2 weeks | 12 animal/2 weeks | 12 animal/2 weeks | 12 animal/2 weeks | 12 animal/2 weeks | 12 animal/2 weeks | 12 animal/2 weeks | 12 animal/2 weeks |
-| qPCR primers |  |  |  |  |  |  |  |  |  |
-| Heat Stress | HSP69 | HSP69 | HSP69 | HSP69 | HSP69 | HSP69 | HSP69 | HSP69 | HSP69 |
-| Metabolism | citrate synthase | citrate synthase | citrate synthase | citrate synthase | citrate synthase | citrate synthase | citrate synthase | citrate synthase | citrate synthase |
-| Recovery | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase |
-| Mortality | Caspase | Caspase | Caspase | Caspase | Caspase | Caspase | Caspase | Caspase | Caspase |
-| Feeding | amylase | amylase | amylase | amylase | amylase | amylase | amylase | amylase | amylase |
-
+| n            | 22                    | 22                    | 22                    | 22                    | 22                    | 22                    | 22                    | 22                    | 22                    |
+| Treament     | 8&deg;C/1 Hr          | 8&deg;C/1 Hr          | 8&deg;C/1 Hr          | 1000 rpm/ 5 min       | 1000 rpm/ 5 min       | 1000 rpm/ 5 min       | 38&deg;C/ 1 hr        | 38&deg;C/ 1 hr        | 38&deg;C/ 1 hr        |
+| Sample       | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        |
+| Monitor      | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     |
+| qPCR primers |                       |                       |                       |                       |                       |                       |                       |                       |                       |
+| Heat Stress  | HSP69                 | HSP69                 | HSP69                 | HSP69                 | HSP69                 | HSP69                 | HSP69                 | HSP69                 | HSP69                 |
+| Metabolism   | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      |
+| Recovery     | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase | glutathime synthetase |
+| Mortality    | Caspase               | Caspase               | Caspase               | Caspase               | Caspase               | Caspase               | Caspase               | Caspase               | Caspase               |
+| Feeding      | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               |
 
 Equipment needed:
 
