@@ -32,7 +32,7 @@ Tissues (Mantle/Ctendia) from oysters will be sampled after stress exposure and 
 Equipment needed:
 
 - 3 500 ml Beakers
-- Water bath to accomodate 3 500 ml Beakers
+- Water bath to accommodate 3 500 ml Beakers
 - Centrifuge
 - Centrifuge buckets
 - Thermometers
