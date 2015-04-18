@@ -42,9 +42,11 @@ Equipment needed:
 	- caspase
 	- amylase
 
-Timeline:
+---
 
-Prior to experiment oysters at 8&deg;C, fed daily.
+**Detailed** Timeline:
+
+Oysters at 8&deg;C, fed daily.  (
 
 Experiment
 
