@@ -4,12 +4,14 @@ ____
 **Summary**
 Each population has 66 oysters held at 8&deg;C for 2 weeks prior to experiment.  Oysters will be split into Control (no stress), Mechanical stress, Heat stress.  Mechanical stress will be performed by centrifuging  oysters for 5 minutes at 1000 rpm (Roberts et al. 2011). Heat stress will be performed by placing a beaker of seawater in a water bath set to 38&deg;C for 1 hour (based on Brown et al. 2004). Tissues (Mantle/Ctendia) from oysters will be sampled after stress exposure and placed in RNAlater (or liquid nitrogen) for RNA Isolation. Remaining oysters will be monitored for mortality.
 
+*Table Outline*
+
 | Group        | Control/N             | Control/H             | Control/S             | Mech/N                | Mech/H                | Mech/S                | Heat/N                | Heat/H                | Heat/S                |
 |--------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|-----------------------|
 | n            | 22                    | 22                    | 22                    | 22                    | 22                    | 22                    | 22                    | 22                    | 22                    |
-| Treament     | 8&deg;C/1 Hr          | 8&deg;C/1 Hr          | 8&deg;C/1 Hr          | 1000 rpm/ 5 min       | 1000 rpm/ 5 min       | 1000 rpm/ 5 min       | 38&deg;C/ 1 hr        | 38&deg;C/ 1 hr        | 38&deg;C/ 1 hr        |
-| Sample       | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        | 5 1 hr/5 12 hr        |
-| Monitor      | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     | 12 animal/2 weeks     |
+| Treament     | none         | none         | none        | 1000 rpm/ 5 min       | 1000 rpm/ 5 min       | 1000 rpm/ 5 min       | 38&deg;C/ 1 hr        | 38&deg;C/ 1 hr        | 38&deg;C/ 1 hr        |
+| Sample       | 1 hr (n=7); 24 hr (n=7)        | 1 hr (n=7); 24 hr (n=7)        | 1 hr (n=7); 24 hr (n=7)        | 1 hr (n=7); 24 hr (n=7)        | 1 hr (n=7); 24 hr (n=7)        | 1 hr (n=7); 24 hr (n=7)        | 1 hr (n=7); 24 hr (n=7)        | 1 hr (n=7); 24 hr (n=7)        | 1 hr (n=7); 24 hr (n=7)        |
+| Monitor      | n=8; 2 weeks     | n=8; 2 weeks     | n=8; 2 weeks     | n=8; 2 weeks     | n=8; 2 weeks     | n=8; 2 weeks     | n=8; 2 weeks     | n=8; 2 weeks     | n=8; 2 weeks     |
 | qPCR primers |                       |                       |                       |                       |                       |                       |                       |                       |                       |
 | Heat Stress  | HSP69                 | HSP69                 | HSP69                 | HSP69                 | HSP69                 | HSP69                 | HSP69                 | HSP69                 | HSP69                 |
 | Metabolism   | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      | citrate synthase      |
@@ -17,6 +19,7 @@ Each population has 66 oysters held at 8&deg;C for 2 weeks prior to experiment. 
 | Mortality    | Caspase               | Caspase               | Caspase               | Caspase               | Caspase               | Caspase               | Caspase               | Caspase               | Caspase               |
 | Feeding      | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               |
 
+---
 Equipment needed:
 
 - 3 500 ml Beakers
