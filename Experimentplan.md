@@ -83,6 +83,12 @@ Collection 1.5 ml tubes for mantle prelabelled with date (42215,42315), pop (N,H
 	- heat stress first, mechanical stress next, control last
 	- N pop first, H pop next, S pop last
 	- collected with ethanol flame sterilized forceps and scissors
+		- tools kept in 100% EtOH
+		- ran through EtOH flame
+		- allow EtOH to burn off
+		- Collect tissue
+		- replace in 100% EtOH
+		- wipe occasionally with paper towel and resterilize
 	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
 	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
 	- remaining tissue placed in 15 ml conical with 75% EtOH
@@ -90,6 +96,12 @@ Collection 1.5 ml tubes for mantle prelabelled with date (42215,42315), pop (N,H
 	- heat stress first, mechanical stress next, control last
 	- N pop first, H pop next, S pop last
 	- collected with ethanol flame sterilized forceps and scissors
+		- tools kept in 100% EtOH
+		- ran through EtOH flame
+		- allow EtOH to burn off
+		- Collect tissue
+		- replace in 100% EtOH
+		- wipe occasionally with paper towel and resterilize
 	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
 	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
 	- remaining tissue placed in 15 ml conical with 75% EtOH
