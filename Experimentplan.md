@@ -34,6 +34,7 @@ Equipment needed:
 - sample tubes with fitted pestles
 - 15 ml conical tubes
 - Trizol
+- DNAse
 - cDNA kit
 - qPCR kit
 - Primers
@@ -66,15 +67,17 @@ Collection 1.5 ml tubes for mantle prelabelled with date (42215,42315), pop (N,H
 
 15 ml conical tubes for whole oyster prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24)
 
-Warm fresh seawater in 500 ml beaker to 38&deg;C by immersing it in a water bath. 
+Warm fresh seawater in 500 ml beaker to 38&deg;C by immersing it in a water bath at 38&deg;C. 
 
 
 **Experiment**
 
-- 22 oysters each pop dropped (stagger each pop by 20 minutes) into prewarmed 38 C sea water (1 hr timer started)
+Heat Stress
+____
+- 22 oysters each pop dropped (stagger each pop by 20 minutes) into prewarmed 38&deg;C sea water (1 hr timer started)
 	- N pop first, H pop next, S pop last
 - after 1 hour exposure heat stress ends, animals returned to 8&deg;C water.
-- - 1 hour post exposure 5 animals sampled from each group staggered by 20 minutes
+- - 1 hour post exposure 7 animals sampled from each group staggered by 20 minutes
 	- N pop first, H pop next, S pop last
 	- collected with ethanol flame sterilized forceps and scissors
 		- tools kept in 100% EtOH
@@ -86,60 +89,7 @@ Warm fresh seawater in 500 ml beaker to 38&deg;C by immersing it in a water bath
 	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
 	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
 	- remaining tissue placed in 15 ml conical with 75% EtOH
-- 24 hours post exposure 5 animals each pop staggered by 20 minutes
-	- N pop first, H pop next, S pop last
-	- collected with ethanol flame sterilized forceps and scissors
-		- tools kept in 100% EtOH
-		- ran through EtOH flame
-		- allow EtOH to burn off
-		- Collect tissue
-		- replace in 100% EtOH
-		- wipe occasionally with paper towel and resterilize
-	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
-	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
-	- remaining tissue placed in 15 ml conical with 75% EtOH
-- 22 oysters from 1 pop dropped into salad spinner (stagger each pop by 20 minutes) spun for 5 minutes. Completed after all heat shock treatments and samples were taken. 
-	- N pop first, H pop next, S pop last
-- after 5 minutes of exposure to mechanical stress, animals returned to 8&deg;C water
-- 1 hour post exposure 5 animals sampled from each group staggered by 20 minutes
-	- N pop first, H pop next, S pop last
-	- collected with ethanol flame sterilized forceps and scissors
-		- tools kept in 100% EtOH
-		- ran through EtOH flame
-		- allow EtOH to burn off
-		- Collect tissue
-		- replace in 100% EtOH
-		- wipe occasionally with paper towel and resterilize
-	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
-	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
-	- remaining tissue placed in 15 ml conical with 75% EtOH
-- 24 hours post exposure 5 animals each pop staggered by 20 minutes
-	- N pop first, H pop next, S pop last
-	- collected with ethanol flame sterilized forceps and scissors
-		- tools kept in 100% EtOH
-		- ran through EtOH flame
-		- allow EtOH to burn off
-		- Collect tissue
-		- replace in 100% EtOH
-		- wipe occasionally with paper towel and resterilize
-	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
-	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
-	- remaining tissue placed in 15 ml conical with 75% EtOH
-- 22 oyster from 1 pop dropped into 8&deg;C water with no aeration (stagger each pop by 20 minutes) remain in unaerated water for 1 hr.
-	- N pop first, H pop next, S pop last
-- 1 hour post exposure 5 animals sampled from each group staggered by 20 minutes
-	- N pop first, H pop next, S pop last
-	- collected with ethanol flame sterilized forceps and scissors
-		- tools kept in 100% EtOH
-		- ran through EtOH flame
-		- allow EtOH to burn off
-		- Collect tissue
-		- replace in 100% EtOH
-		- wipe occasionally with paper towel and resterilize
-	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
-	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
-	- remaining tissue placed in 15 ml conical with 75% EtOH
-- 24 hours post exposure 5 animals each pop staggered by 20 minutes
+- 24 hours post exposure 7 animals each pop staggered by 20 minutes
 	- N pop first, H pop next, S pop last
 	- collected with ethanol flame sterilized forceps and scissors
 		- tools kept in 100% EtOH
@@ -152,6 +102,67 @@ Warm fresh seawater in 500 ml beaker to 38&deg;C by immersing it in a water bath
 	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
 	- remaining tissue placed in 15 ml conical with 75% EtOH
 
+Mechanical Stress
+______
+- 22 oysters from 1 pop dropped into salad spinner (stagger each pop by 20 minutes) spun for 5 minutes. Completed after all heat shock treatments and samples were taken. 
+	- N pop first, H pop next, S pop last
+- after 5 minutes of exposure to mechanical stress, animals returned to 8&deg;C water
+- 1 hour post exposure 7 animals sampled from each group staggered by 20 minutes
+	- N pop first, H pop next, S pop last
+	- collected with ethanol flame sterilized forceps and scissors
+		- tools kept in 100% EtOH
+		- ran through EtOH flame
+		- allow EtOH to burn off
+		- Collect tissue
+		- replace in 100% EtOH
+		- wipe occasionally with paper towel and resterilize
+	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
+	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
+	- remaining tissue placed in 15 ml conical with 75% EtOH
+- 24 hours post exposure 7 animals each pop staggered by 20 minutes
+	- N pop first, H pop next, S pop last
+	- collected with ethanol flame sterilized forceps and scissors
+		- tools kept in 100% EtOH
+		- ran through EtOH flame
+		- allow EtOH to burn off
+		- Collect tissue
+		- replace in 100% EtOH
+		- wipe occasionally with paper towel and resterilize
+	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
+	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
+	- remaining tissue placed in 15 ml conical with 75% EtOH
+
+Control
+____
+- 22 oyster from 1 pop dropped into 8&deg;C water with no aeration (stagger each pop by 20 minutes) remain in unaerated water for 1 hr.
+	- N pop first, H pop next, S pop last
+- 1 hour post exposure 7 animals sampled from each group staggered by 20 minutes
+	- N pop first, H pop next, S pop last
+	- collected with ethanol flame sterilized forceps and scissors
+		- tools kept in 100% EtOH
+		- ran through EtOH flame
+		- allow EtOH to burn off
+		- Collect tissue
+		- replace in 100% EtOH
+		- wipe occasionally with paper towel and resterilize
+	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
+	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
+	- remaining tissue placed in 15 ml conical with 75% EtOH
+- 24 hours post exposure 7 animals each pop staggered by 20 minutes
+	- N pop first, H pop next, S pop last
+	- collected with ethanol flame sterilized forceps and scissors
+		- tools kept in 100% EtOH
+		- ran through EtOH flame
+		- allow EtOH to burn off
+		- Collect tissue
+		- replace in 100% EtOH
+		- wipe occasionally with paper towel and resterilize
+	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
+	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
+	- remaining tissue placed in 15 ml conical with 75% EtOH
+
+Tissue prep
+____
 RNA Isolation (24-48 hours)
 Trizol protocol
 
