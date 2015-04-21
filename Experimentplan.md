@@ -66,7 +66,7 @@ Collection 1.5 ml tubes for mantle prelabelled with date (42215,42315), pop (N,H
 
 15 ml conical tubes for whole oyster prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24)
 
-
+Warm fresh seawater in 500 ml beaker to 38&deg;C by immersing it in a water bath. 
 
 
 **Experiment**
