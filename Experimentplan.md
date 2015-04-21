@@ -50,16 +50,17 @@ Oysters at 8&deg;C, fed daily.  (
 
 Experiment
 
-- 22 oysters each pop dropped (stagger each pop by 10 minutes) into prewarmed 38 C sea water (1 hr timer started)
-- 22 oysters from 1 pop dropped into salad spinner (stagger each pop by 10 minutes) spun for 5 minutes
-- repeat with other two pops (30 minutes total)
-- mechanical animals returned to 8&deg;C water
+- 22 oysters each pop dropped (stagger each pop by 20 minutes) into prewarmed 38 C sea water (1 hr timer started)
+	- N pop first, H pop next, S pop last
 - heat stress ends, animals returned to 8&deg;C water.
-
-Samples collected
-
-- 1 hour post exposure 5 animals from each group
-- mantle/ctenidia sampled
+- 22 oysters from 1 pop dropped into salad spinner (stagger each pop by 20 minutes) spun for 5 minutes. Completed after all heat shock treatments and samples were taken. 
+	- N pop first, H pop next, S pop last
+- mechanical animals returned to 8&deg;C water
+- 1 hour post exposure 5 animals sampled from each group staggered by 20 minutes
+	- N pop first, H pop next, S pop last
+	- ctenidia sample (25-75 mg) homogenized in Trizol stored at -20
+	- mantle sample (25-75 mg) dropped in liquid nitrogen
+	- remaining tissue placed in 15 ml conical with 75% EtOH
 - 12 hours post exposure 5 animals each pop
 - mantle/ctenidia sampled
 
