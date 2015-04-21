@@ -57,12 +57,16 @@ Experiment
 	- N pop first, H pop next, S pop last
 - mechanical animals returned to 8&deg;C water
 - 1 hour post exposure 5 animals sampled from each group staggered by 20 minutes
+	- heat stress first, mechanical stress next, control last
 	- N pop first, H pop next, S pop last
-	- ctenidia sample (25-75 mg) homogenized in Trizol stored at -20
-	- mantle sample (25-75 mg) dropped in liquid nitrogen
+	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
+	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
 	- remaining tissue placed in 15 ml conical with 75% EtOH
-- 12 hours post exposure 5 animals each pop
-- mantle/ctenidia sampled
+- 24 hours post exposure 5 animals each pop staggered by 20 minutes
+	- heat stress first, mechanical stress next, control last
+	- N pop first, H pop next, S pop last
+	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
+	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
 
 RNA Isolation (24-48 hours)
 Trizol protocol ASAP
