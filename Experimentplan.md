@@ -52,10 +52,12 @@ Experiment
 
 - 22 oysters each pop dropped (stagger each pop by 20 minutes) into prewarmed 38 C sea water (1 hr timer started)
 	- N pop first, H pop next, S pop last
-- heat stress ends, animals returned to 8&deg;C water.
+- after 1 hour exposure heat stress ends, animals returned to 8&deg;C water.
 - 22 oysters from 1 pop dropped into salad spinner (stagger each pop by 20 minutes) spun for 5 minutes. Completed after all heat shock treatments and samples were taken. 
 	- N pop first, H pop next, S pop last
-- mechanical animals returned to 8&deg;C water
+- after 5 minutes of exposure to mechanical stress, animals returned to 8&deg;C water
+- 22 oyster from 1 pop dropped into 8&deg;C water with no aeration (stagger each pop by 20 minutes) remain in unaerated water for 1 hr.
+	- N pop first, H pop next, S pop last
 - 1 hour post exposure 5 animals sampled from each group staggered by 20 minutes
 	- heat stress first, mechanical stress next, control last
 	- N pop first, H pop next, S pop last
@@ -67,6 +69,7 @@ Experiment
 	- N pop first, H pop next, S pop last
 	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
 	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
+	- remaining tissue placed in 15 ml conical with 75% EtOH
 
 RNA Isolation (24-48 hours)
 Trizol protocol ASAP
