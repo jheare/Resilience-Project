@@ -27,10 +27,12 @@ Equipment needed:
 - Centrifuge
 - Centrifuge buckets
 - Thermometers
-- RNAlater
-- liquid nitro
+- 75% EtOH
+- liquid nitrogen
+- dewar
 - holding baskets for aquarium
 - sample tubes with fitted pestles
+- 15 ml conical tubes
 - Trizol
 - cDNA kit
 - qPCR kit
@@ -46,7 +48,25 @@ Equipment needed:
 
 **Detailed** Timeline:
 
-Oysters at 8&deg;C, fed daily.  (
+Pre-Experiment
+
+Oysters 
+- 8&deg;C 
+- fed daily 
+- Partial water changes once per week (remove 5 gallons, replace with fresh 5 gallons)
+	- Seawater from Seattle Aquarium 
+- Aeration with aquarium aerator/stone
+- circulation with underwater pump 
+- Tanks 10 gallon plastic storage tubs (costco storage tubs)
+
+Homogenization tubes for ctenidia pre labelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24)
+
+Collection 1.5 ml tubes for mantle prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24)
+
+15 ml conical tubes for whole oyster prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24)
+
+
+
 
 Experiment
 
