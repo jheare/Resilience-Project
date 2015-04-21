@@ -48,18 +48,19 @@ Equipment needed:
 
 **Detailed** Timeline:
 
-Pre-Experiment
+**Pre-Experiment**
 
 Oysters 
+
 - 8&deg;C 
-- fed daily 
+- fed daily with 5-10 ml per tank commercial shellfish diet (Isochrysis mix)
 - Partial water changes once per week (remove 5 gallons, replace with fresh 5 gallons)
 	- Seawater from Seattle Aquarium 
 - Aeration with aquarium aerator/stone
 - circulation with underwater pump 
 - Tanks 10 gallon plastic storage tubs (costco storage tubs)
 
-Homogenization tubes for ctenidia pre labelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24)
+Homogenization tubes for ctenidia prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24)
 
 Collection 1.5 ml tubes for mantle prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24)
 
@@ -68,7 +69,7 @@ Collection 1.5 ml tubes for mantle prelabelled with date (42215,42315), pop (N,H
 
 
 
-Experiment
+**Experiment**
 
 - 22 oysters each pop dropped (stagger each pop by 20 minutes) into prewarmed 38 C sea water (1 hr timer started)
 	- N pop first, H pop next, S pop last
@@ -81,12 +82,14 @@ Experiment
 - 1 hour post exposure 5 animals sampled from each group staggered by 20 minutes
 	- heat stress first, mechanical stress next, control last
 	- N pop first, H pop next, S pop last
+	- collected with ethanol flame sterilized forceps and scissors
 	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
 	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
 	- remaining tissue placed in 15 ml conical with 75% EtOH
 - 24 hours post exposure 5 animals each pop staggered by 20 minutes
 	- heat stress first, mechanical stress next, control last
 	- N pop first, H pop next, S pop last
+	- collected with ethanol flame sterilized forceps and scissors
 	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
 	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
 	- remaining tissue placed in 15 ml conical with 75% EtOH
