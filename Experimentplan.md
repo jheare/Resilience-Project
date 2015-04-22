@@ -110,7 +110,7 @@ Heat Stress
 Mechanical Stress
 ---
 
-- 22 oysters from 1 pop dropped into salad spinner (stagger each pop by 20 minutes) spun for 5 minutes. Completed after all heat shock treatments and samples were taken. 
+- 22 oysters from 1 pop dropped into salad spinner (stagger each pop by 20 minutes) spun for 5 minutes.  **Use of centrifuge is also an option** would just need to make sure it is balanced.  _If going with salad spinner will need to estimate rotation speed._ Completed after all heat shock treatments and samples were taken.
 	- N pop first, H pop next, S pop last
 - after 5 minutes of exposure to mechanical stress, animals returned to 8&deg;C water
 - 1 hour post exposure 7 animals sampled from each group staggered by 20 minutes
