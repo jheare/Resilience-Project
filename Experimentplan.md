@@ -61,11 +61,11 @@ Oysters
 - circulation with underwater pump 
 - Tanks 10 gallon plastic storage tubs (costco storage tubs) <NOTE will need metric for paper>
 
-Homogenization tubes for ctenidia prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24)
+Homogenization tubes for ctenidia prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24), and oyster # (1,2,3...)
 
-Collection 1.5 ml tubes for mantle prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24)
+Collection 1.5 ml tubes for mantle prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24), and oyster # (1,2,3...)
 
-15 ml conical tubes for whole oyster prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24)
+15 ml conical tubes for whole oyster prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24), and oyster # (1,2,3...)
 
 Warm fresh seawater in 500 ml beaker to 38&deg;C by immersing it in a water bath at 38&deg;C. 
 
@@ -91,7 +91,7 @@ Heat Stress
 	-  2nd ctenidia sample (any remaining) in 1.5 ml screw cap tube dropped into liquid nitrogen
 	- mantle sample (decent size) in 1.5 ml screw cap tube dropped into liquid nitrogen
 	- remaining tissue placed (possibly minus digestive system) in 15 ml conical with 75% EtOH
-	- 
+	- shells cleaned and labeled so correspond to sample
 	- 
 - 24 hours post exposure 7 animals each pop staggered by 20 minutes
 	- N pop first, H pop next, S pop last
@@ -112,8 +112,8 @@ Mechanical Stress
 
 - 22 oysters from 1 pop dropped into salad spinner (stagger each pop by 20 minutes) spun for 5 minutes.  **Use of centrifuge is also an option** would just need to make sure it is balanced.  _If going with salad spinner will need to estimate rotation speed._ Completed after all heat shock treatments and samples were taken.
 	- N pop first, H pop next, S pop last
-- after 5 minutes of exposure to mechanical stress, animals returned to 8&deg;C water
-- 1 hour post exposure 7 animals sampled from each group staggered by 20 minutes
+- after 5 minutes of  mechanical stress, animals returned to 8&deg;C water
+- 1 hour post exposure 7 animals sampled from each group staggered by 20 minutes 
 	- N pop first, H pop next, S pop last
 	- collected with ethanol flame sterilized forceps and scissors
 		- tools kept in 100% EtOH
@@ -123,8 +123,10 @@ Mechanical Stress
 		- replace in 100% EtOH
 		- wipe occasionally with paper towel and resterilize
 	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
-	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
-	- remaining tissue placed in 15 ml conical with 75% EtOH
+	-  2nd ctenidia sample (any remaining) in 1.5 ml screw cap tube dropped into liquid nitrogen
+	- mantle sample (decent size) in 1.5 ml screw cap tube dropped into liquid nitrogen
+	- remaining tissue placed (possibly minus digestive system) in 15 ml conical with 75% EtOH
+
 - 24 hours post exposure 7 animals each pop staggered by 20 minutes
 	- N pop first, H pop next, S pop last
 	- collected with ethanol flame sterilized forceps and scissors
@@ -138,8 +140,11 @@ Mechanical Stress
 	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
 	- remaining tissue placed in 15 ml conical with 75% EtOH
 
+
+
 Control
-____
+---
+
 - 22 oyster from 1 pop dropped into 8&deg;C water with no aeration (stagger each pop by 20 minutes) remain in unaerated water for 1 hr.
 	- N pop first, H pop next, S pop last
 - 1 hour post exposure 7 animals sampled from each group staggered by 20 minutes
@@ -166,12 +171,16 @@ ____
 	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
 	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
 	- remaining tissue placed in 15 ml conical with 75% EtOH
+	
+	
+	
+---
+Tissue prep (next week)
+---
 
-Tissue prep
-____
-RNA Isolation (24-48 hours)
+RNA Isolation
 Trizol protocol
-
+DNAzol
 cDNA created ASAP (24-48 hours)
 
 qPCR with primers
