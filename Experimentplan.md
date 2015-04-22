@@ -80,7 +80,7 @@ Heat Stress
 
 - 24 oysters each pop dropped (stagger each pop by 20 minutes) into prewarmed 38&deg;C sea water (1 hr timer started)    
 	- N pop first, H pop next, S pop last     
-- after 1 hour exposure heat stress ends, animals returned to 8&deg;C water.
+- after 1 hour exposure heat stress ends, animals returned to 8&deg;C water in mesh bags with Orange zipties.
 - **1 hour post exposure** 8 animals sampled from each group staggered by 20 minutes (or based on when treatment ends)
 	- N pop first, H pop next, S pop last
 	- collected with ethanol flame sterilized forceps and scissors
@@ -117,7 +117,7 @@ Mechanical Stress
 
 - 24 oysters from 1 pop dropped into salad spinner (stagger each pop by 20 minutes) spun for 5 minutes.  **Use of centrifuge is also an option- preferred** would just need to make sure it is balanced.  _If going with salad spinner will need to estimate rotation speed._ Completed after all heat shock treatments and samples were taken.
 	- N pop first, H pop next, S pop last
-- after 5 minutes of  mechanical stress, animals returned to 8&deg;C water
+- after 5 minutes of  mechanical stress, animals returned to 8&deg;C water in mesh bags with Yellow zipties
 
     
 - **1 hour post exposure** 8 animals sampled from each group staggered by 20 minutes 
@@ -153,7 +153,7 @@ Mechanical Stress
 Controls
 ---
 
-For controls sample 8 from each group, this should be done on day 2 as less things are going on. Protocol is the same. These oyster should have remained in holding tank-throughout and should simply be removed and sampled. There is no treatment. Using sterile techniqes.
+For controls sample 8 from each group, this should be done on day 2 as less things are going on. Protocol is the same. These oyster should have remained in holding tank-throughout and should simply be removed and sampled. There is no treatment. Using sterile techniques.
 
 - ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -80&deg;C 
 -  2nd ctenidia sample (any remaining) in 1.5 ml screw cap tube dropped into liquid nitrogen - then to -80&deg;C
