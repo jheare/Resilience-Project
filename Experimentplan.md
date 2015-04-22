@@ -78,7 +78,7 @@ Warm fresh seawater in 500 ml beaker to 38&deg;C by immersing it in a water bath
 Heat Stress
 ---
 
-- 24 oysters each pop dropped (stagger each pop by 20 minutes) into prewarmed 38&deg;C sea water (1 hr timer started)    
+- 24 oysters each pop dropped (stagger each pop by 20 minutes) into 500 ml prewarmed 38&deg;C sea water (1 hr timer started)    
 	- N pop first, H pop next, S pop last     
 - after 1 hour exposure heat stress ends, animals returned to 8&deg;C water in mesh bags with Orange zipties.
 - **1 hour post exposure** 8 animals sampled from each group staggered by 20 minutes (or based on when treatment ends)
