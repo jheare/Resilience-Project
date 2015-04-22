@@ -2,7 +2,7 @@
 ____
 
 **Summary**
-Each population has 66 oysters held at 8&deg;C for 2 weeks prior to experiment.  Oysters will be split into Control (no stress), Mechanical stress, Heat stress.  Mechanical stress will be performed by centrifuging  oysters for 5 minutes at 1000 rpm (Roberts et al. 2011). Heat stress will be performed by placing a beaker of seawater in a water bath set to 38&deg;C for 1 hour (based on Brown et al. 2004). Tissues (Mantle/Ctendia) from oysters will be sampled after stress exposure and placed in RNAlater (or liquid nitrogen) for RNA Isolation. Remaining oysters will be monitored for mortality.
+Each population has ~66 oysters held at 8&deg;C for 2 weeks prior to experiment.  Oysters will be split into Control (no stress), Mechanical stress, Heat stress.  Mechanical stress will be performed by centrifuging  oysters for 5 minutes at 1000 rpm (Roberts et al. 2011). Heat stress will be performed by placing a beaker of seawater in a water bath set to 38&deg;C for 1 hour (based on Brown et al. 2004). Tissues (Mantle/Ctendia) from oysters will be sampled after stress exposure and placed in Tri-Reagent (or liquid nitrogen) for RNA Isolation. Remaining oysters will be monitored for mortality.
 
 *Table Outline*
 
@@ -20,6 +20,7 @@ Each population has 66 oysters held at 8&deg;C for 2 weeks prior to experiment. 
 | Feeding      | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               | amylase               |
 
 ---
+
 Equipment needed:
 
 - 3 500 ml Beakers
@@ -47,7 +48,7 @@ Equipment needed:
 
 ---
 
-**Detailed** Timeline:
+**Detailed** Timeline
 
 **Pre-Experiment**
 
@@ -61,11 +62,13 @@ Oysters
 - circulation with underwater pump 
 - Tanks 10 gallon plastic storage tubs (costco storage tubs) <NOTE will need metric for paper>
 
-Homogenization tubes for ctenidia prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24), and oyster # (1,2,3...)
+Homogenization tubes for ctenidia prelabelled with date (42215,42315), pop (N,H,S), treatment (T,M) and time point (1, 24) or Control, and oyster # (1,2,3...)
 
-Collection 1.5 ml tubes for mantle prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24), and oyster # (1,2,3...)
+Collection 1.5 ml tubes (screw cap) for ctenidia prelabelled with date (42215,42315), pop (N,H,S), treatment (T,M) and time point (1, 24) or Control, and oyster # (1,2,3...)
 
-15 ml conical tubes for whole oyster prelabelled with date (42215,42315), pop (N,H,S), treatment (C,T,M), time point (1, 24), and oyster # (1,2,3...)
+Collection 1.5 ml tubes (screw cap) for mantle prelabelled with date (42215,42315), pop (N,H,S), treatment (T,M) and time point (1, 24) or Control, and oyster # (1,2,3...)
+
+15 ml conical tubes for whole oyster prelabelled with date (42215,42315), pop (N,H,S), treatment (T,M) and time point (1, 24) or Control, and oyster # (1,2,3...)
 
 Warm fresh seawater in 500 ml beaker to 38&deg;C by immersing it in a water bath at 38&deg;C. 
 
