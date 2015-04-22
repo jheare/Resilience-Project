@@ -92,6 +92,7 @@ Heat Stress
 	- mantle sample (decent size) in 1.5 ml screw cap tube dropped into liquid nitrogen
 	- remaining tissue placed (possibly minus digestive system) in 15 ml conical with 75% EtOH
 	- shells cleaned and labeled so correspond to sample including oyster id
+- 
 	
 	
 	- **24 hours post exposure** 7 animals each pop **plus 7 control animals from the same population**  staggered by 20 minutes
