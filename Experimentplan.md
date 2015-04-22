@@ -103,8 +103,9 @@ Heat Stress
 		- replace in 100% EtOH
 		- wipe occasionally with paper towel and resterilize
 	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -20&deg;C
-	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen
-	- remaining tissue placed in 15 ml conical with 75% EtOH
+	-  2nd ctenidia sample (any remaining) in 1.5 ml screw cap tube dropped into liquid nitrogen
+	- mantle sample (decent size) in 1.5 ml screw cap tube dropped into liquid nitrogen
+	- remaining tissue placed (possibly minus digestive system) in 15 ml conical with 75% EtOH
 
 Mechanical Stress
 ---
