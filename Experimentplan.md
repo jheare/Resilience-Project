@@ -94,8 +94,7 @@ Heat Stress
 	- shells cleaned and labeled so correspond to sample including oyster id
 - 
 	
-	
-	- **24 hours post exposure** 7 animals each pop **plus 7 control animals from the same population**  staggered by 20 minutes
+- **24 hours post exposure** 7 animals each pop **plus 7 control animals from the same population**  staggered by 20 minutes
 	- N pop first, H pop next, S pop last
 	- collected with ethanol flame sterilized forceps and scissors
 		- tools kept in 100% EtOH
