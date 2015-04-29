@@ -19,4 +19,10 @@ Things to improve:
 - Larger dewar needed
 - More dissection scissors and forceps (broke a pair while working)
 - More -80 freezer space.
+- Run heat and mechanical treatments a day apart to reduce sampling fatigue
+- Increase speed on centrifuge (no mortalities from mech stress)
+- Digital thermometer in heat treatment
+- Account for thermal mass of oysters when heat treating
+- Larger volume of prewarmed water (1 L or more) to offset thermal mass
+- Create bulletted reference sheet with relevant information
 - 
