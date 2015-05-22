@@ -11,10 +11,10 @@ The populations were then split into two groups with 22 oysters in the Control g
 
 
 ##Sampling
-Using liquid nitrogen and flame sterilized equipment, mantle and ctenidia tissues will be collected from 7 oysters in each group from each population 1 hour post stress. After 24 hours, a second sample of 7 oysters from each population in each group will be collected. All tissues will be preserved in liquid nitrogen and held at -80 until they can be processed for RNA. The remaining 8 oysters will be monitored for 14 days post the experiment for mortality events. At the end of the two weeks, the remaining oysters will also be sampled for mRNA using the same protocol. 
+Using liquid nitrogen and flame sterilized equipment, mantle and ctenidia tissues will be collected from 8 oysters in each group from each population 1 hour post stress. After 24 hours, a second sample of 8 oysters from each population in each group will be collected. All tissues will be preserved in liquid nitrogen and held at -80&deg;C until they can be processed for RNA. The remaining 8 oysters will be monitored for 14 days post the experiment for mortality events. At the end of the two weeks, the remaining oysters will also be sampled for mRNA using the same protocol. 
 
 ##RNA, cDNA, qPCR
-RNA will be extracted using Trizol under sterile conditions. The mRNA will then be converted to cDNA using the kit ?????. Once cDNA is created we will run a qPCR on it using ????? primers for HSP70 (general stress), HSP69 (heat inducible), citrate synthase (aerobic metabolism), glutamine synthetase (cell detoxification), caspase (cell death), and amylase (food uptake). We will use primers for Actin as a normalizing gene. 
+RNA will be extracted using RNAzol under sterile conditions. The mRNA will then be converted to cDNA using Reverse transcriptase. Once cDNA is created we will run a qPCR on it using ????? primers for HSP70 (general stress). We will use primers for Actin as a normalizing gene. 
 
 ##Statistical Analysis
 Data from qPCR and from the monitoring will be analyized in R programming language using the base statistical analysis program and ggplot2. 
