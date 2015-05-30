@@ -9,10 +9,8 @@ From each population, 480 oysters (n =1440), we placed in trays in Clam Bay, WA.
 ~Start here
 
 ##Experimental Design
-Adult oysters from three founder populations (Dabob Bay, Fidalgo Bay, and Oyster Bay) grown for XXXX months  The populations were then split into two groups with 22 oysters in the Control group, 22 heat stress exposed, and 22 mechanical stress exposed. The control group will remain submerged in 8&deg;C salt water for the duration of the experiment. The heat stress group will be dropped into prewarmed 38&deg;C water for 1 hour. The mechanical stress group will be spun at 1000 rpm for 5 minutes. The start times for each population and each treatment will be staggered so that sample collection will occur at 1 hour post stress with little to no delay. Oysters will then be returned to 8&deg;C aquaria and fed on a daily basis for the remainder of the experiment. 
+Adult oysters from three founder populations (Dabob Bay, Fidalgo Bay, and Oyster Bay) grown for XXXX months at Clam Bay, WA wre used for this experiment. All oysters were held at 8&deg;C for two weeks at the University of Washington prior to the experiment.  Oyster from each population were subjected to acute temperature stress (38&deg;C water for 1 hour; n=22), mechanical stress (1000 rpm x 5 min; n=22) or served as controls (mainted at 8&deg;C ; n=22).  
 
-
-##Sampling
 Using liquid nitrogen and flame sterilized equipment, mantle and ctenidia tissues will be collected from 7 oysters in each group from each population 1 hour post stress. After 24 hours, a second sample of 7 oysters from each population in each group will be collected. All tissues will be preserved in liquid nitrogen and held at -80 until they can be processed for RNA. The remaining 8 oysters will be monitored for 14 days post the experiment for mortality events. At the end of the two weeks, the remaining oysters will also be sampled for mRNA using the same protocol. 
 
 ##RNA, cDNA, qPCR
