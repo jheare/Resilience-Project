@@ -9,14 +9,10 @@ From each population, 480 oysters (n =1440), we placed in trays in Clam Bay, WA.
 ~Start here
 
 ##Experimental Design
-Adult oysters from three founder populations (Dabob Bay, Fidalgo Bay, and Oyster Bay) grown for XXXX months at Clam Bay, WA wre used for this experiment. All oysters were held at 8&deg;C for two weeks at the University of Washington prior to the experiment.  Oyster from each population were subjected to acute temperature stress (38&deg;C water for 1 hour; n=22), mechanical stress (1000 rpm x 5 min; n=22) or served as controls (mainted at 8&deg;C ; n=22).  
+Adult oysters from three founder populations (Dabob Bay, Fidalgo Bay, and Oyster Bay) grown for XXXX months at Clam Bay, WA wre used for this experiment. All oysters were held at 8&deg;C for two weeks at the University of Washington prior to the experiment.  Oyster from each population were subjected to acute temperature stress (38&deg;C water for 1 hour; n=22), mechanical stress (1000 rpm x 5 min; n=22) or served as controls (mainted at 8&deg;C ; n=22).   All oysters were placed back in  8&deg;C seawater and sampled at 1 hour post stress (n=8), 24 hours post stress (n=8), and six oysters were monitored daily for 14 dayfor mortality.
 
-<<<<<<< HEAD
-Using liquid nitrogen and flame sterilized equipment, mantle and ctenidia tissues will be collected from 7 oysters in each group from each population 1 hour post stress. After 24 hours, a second sample of 7 oysters from each population in each group will be collected. All tissues will be preserved in liquid nitrogen and held at -80 until they can be processed for RNA. The remaining 8 oysters will be monitored for 14 days post the experiment for mortality events. At the end of the two weeks, the remaining oysters will also be sampled for mRNA using the same protocol. 
-=======
-##Sampling
-Using liquid nitrogen and flame sterilized equipment, mantle and ctenidia tissues will be collected from 8 oysters in each group from each population 1 hour post stress. After 24 hours, a second sample of 8 oysters from each population in each group will be collected. All tissues will be preserved in liquid nitrogen and held at -80&deg;C until they can be processed for RNA. The remaining 8 oysters will be monitored for 14 days post the experiment for mortality events. At the end of the two weeks, the remaining oysters will also be sampled for mRNA using the same protocol. 
->>>>>>> origin/master
+
+
 
 ##RNA, cDNA, qPCR
 RNA will be extracted using RNAzol under sterile conditions. The mRNA will then be converted to cDNA using Reverse transcriptase. Once cDNA is created we will run a qPCR on it using ????? primers for HSP70 (general stress). We will use primers for Actin as a normalizing gene. 
