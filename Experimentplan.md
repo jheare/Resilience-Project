@@ -34,7 +34,7 @@ Equipment needed:
 - holding baskets for aquarium
 - sample tubes with fitted pestles
 - 15 ml conical tubes
-- Trizol
+- RNAzol RT
 - DNAse
 - cDNA kit
 - qPCR kit
@@ -90,7 +90,7 @@ Heat Stress
 		- Collect tissue
 		- replace in 100% EtOH
 		- wipe occasionally with paper towel and resterilize
-	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -80&deg;C
+	- ctenidia sample (50-100 mg) homogenized in 1 ml RNAzol RT stored at -80&deg;C
 	-  2nd ctenidia sample (any remaining) in 1.5 ml screw cap tube dropped into liquid nitrogen - then to -80&deg;C
 	- mantle sample (decent size) in 1.5 ml screw cap tube dropped into liquid nitrogen - then to -80&deg;C
 	- remaining tissue placed (possibly minus digestive system) in 15 ml conical with 75% EtOH at RT
@@ -106,7 +106,7 @@ Heat Stress
 		- Collect tissue
 		- replace in 100% EtOH
 		- wipe occasionally with paper towel and resterilize
-	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -80&deg;C
+	- ctenidia sample (50-100 mg) homogenized in 1 ml RNAzol RT stored at -80&deg;C
 	-  2nd ctenidia sample (any remaining) in 1.5 ml screw cap tube dropped into liquid nitrogen - then to -80&deg;C
 	- mantle sample (decent size) in 1.5 ml screw cap tube dropped into liquid nitrogen -80&deg;C
 	- remaining tissue placed (possibly minus digestive system) in 15 ml conical with 75% EtOH at RT
@@ -129,7 +129,7 @@ Mechanical Stress
 		- Collect tissue
 		- replace in 100% EtOH
 		- wipe occasionally with paper towel and resterilize
-	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -80&deg;C
+	- ctenidia sample (50-100 mg) homogenized in 1 ml RNAzol RT stored at -80&deg;C
 	-  2nd ctenidia sample (any remaining) in 1.5 ml screw cap tube dropped into liquid nitrogen - then to -80&deg;C
 	- mantle sample (decent size) in 1.5 ml screw cap tube dropped into liquid nitrogen - then to -80&deg;C
 	- remaining tissue placed (possibly minus digestive system) in 15 ml conical with 75% EtOH at RT
@@ -144,7 +144,7 @@ Mechanical Stress
 		- Collect tissue
 		- replace in 100% EtOH
 		- wipe occasionally with paper towel and resterilize
-	- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -80&deg;C 
+	- ctenidia sample (50-100 mg) homogenized in 1 ml RNAzol RT stored at -80&deg;C 
 	-  2nd ctenidia sample (any remaining) in 1.5 ml screw cap tube dropped into liquid nitrogen - then to -80&deg;C
 	- mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen - then to -80&deg;C
 	- remaining tissue placed in 15 ml conical with 75% EtOH at RT
@@ -155,7 +155,7 @@ Controls
 
 For controls sample 8 from each group, this should be done on day 2 as less things are going on. Protocol is the same. These oyster should have remained in holding tank-throughout and should simply be removed and sampled. There is no treatment. Using sterile techniques.
 
-- ctenidia sample (50-100 mg) homogenized in 1 ml Trizol stored at -80&deg;C 
+- ctenidia sample (50-100 mg) homogenized in 1 ml RNAzol RT stored at -80&deg;C 
 -  2nd ctenidia sample (any remaining) in 1.5 ml screw cap tube dropped into liquid nitrogen - then to -80&deg;C
 - mantle sample (50-100 mg) in 1.5 ml tube dropped into liquid nitrogen - then to -80&deg;C
 - remaining tissue placed in 15 ml conical with 75% EtOH at RT
@@ -167,7 +167,7 @@ Tissue prep (next week)
 ---
 
 RNA Isolation
-Trizol protocol
+RNAzol RT protocol
 DNAzol
 cDNA created ASAP (24-48 hours)
 
