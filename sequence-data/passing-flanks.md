@@ -1,4 +1,4 @@
-#Passing Flanks - A systematic look at population differences at qPCR primer sites
+#Passing Flanks - A first look at population differences at qPCR primer sites
 
 Plate 1 (`samwhite_112381`) included, BMP2, CARM, HSPb11, and PGEEP4. At the bottom is a full list of qPCR primers. 
 
@@ -39,9 +39,37 @@ Not much coverage
 
 ### CRAF
 `comp25313_c0_seq1`
+Decent coverage, only conflict = ambig, SNP!
+![](http://eagle.fish.washington.edu/cnidarian/skitch/CLC_Genomics_Workbench_8_0_1_-_Evaluation_1B39CC30.png)
+
+**SNP**
+![](http://eagle.fish.washington.edu/cnidarian/skitch/CLC_Genomics_Workbench_8_0_1_-_Evaluation_1B39D125.png)
 
 
-| Primer   | sequence | Protein                                                                                                                                    |
+### GABABR
+`comp19002_c0_seq1`
+Great coverage, did find some SNPs. Missed qPCR primer
+![](http://eagle.fish.washington.edu/cnidarian/skitch/CLC_Genomics_Workbench_8_0_1_-_Evaluation_1B39CDCF.png)
+
+**SNPs**
+![](http://eagle.fish.washington.edu/cnidarian/skitch/CLC_Genomics_Workbench_8_0_1_-_Evaluation_1B39CD60.png)
+![](http://eagle.fish.washington.edu/cnidarian/skitch/CLC_Genomics_Workbench_8_0_1_-_Evaluation_1B39CD9F.png)
+
+### GRB2
+`comp10127_c0_seq1`
+Not great coverage
+![](http://eagle.fish.washington.edu/cnidarian/skitch/CLC_Genomics_Workbench_8_0_1_-_Evaluation_1B39CEEF.png)
+
+### H3-3
+`comp19571_c0_seq1`
+![](http://eagle.fish.washington.edu/cnidarian/skitch/CLC_Genomics_Workbench_8_0_1_-_Evaluation_1B39D08C.png)
+
+---
+
+# List of QPCR Primers
+
+
+| QPCR Primer   | sequence | Protein                                                                                                                                    |
 |--------------|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | HSP70c_FWD   | AGGAAAGGTCGGGAGAGGAA | Heat shock 70 kDa protein 12A 
 | HSP70c_REV   | ACCTCGGACTTTGGACGAAC | Heat shock 70 kDa protein 12A                                                                                                                                       |
