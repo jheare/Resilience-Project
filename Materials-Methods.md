@@ -9,12 +9,10 @@ Ctenidia stored in 1mL RNAzol RT (Molecular Research Center, Inc.) at -80C were 
 
 ##DNase Treatment and Reverse Transcription
 Prior to creating cDNA, total RNA was treated with DNase to remove reisdual genomic DNA (gDNA) using the Turbo DNA-free Kit (Ambion/Life Technologies). The manufacturer's rigorous protocol was followed. Briefly, 1.5μg of total RNA was treated 0.5mL tubes in a reaction volume of 50μL. The samples were incubated with 1μL of DNase for 30 minutes at 37C. An additional 1μL of DNase was added to each sample and incubated at 37C for an additional 30 minutes. The DNase was inactivated with 0.2 volumes of the inactivation reagent according to the manufacturer's protocol. Samples were quantified using a NanoDrop1000 (ThermoFisher) and verified to be free of gDNA via quantitative PCR (qPCR).
-
-
-Once cDNA is created we will run a qPCR on it using ????? primers for HSP70 (general stress). We will use primers for Actin as a normalizing gene. 
+$$$needs RT details$$$$
 
 ## Quantitative PCR
-
+$$$THis can written ASAP$$$
 
 
 ##Statistical Analysis
