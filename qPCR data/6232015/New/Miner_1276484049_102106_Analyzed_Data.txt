@@ -1,0 +1,67 @@
+SampleNames:	TLR2.1_HC_1	TLR2.1_NC_1	TLR2.1_SC_1	TLR2.1_HT_1	TLR2.1_NT_1	TLR2.1_ST_1	TLR2.1_NTC_1	TLR2.1_HC_2	TLR2.1_NC_2	TLR2.1_SC_2	TLR2.1_HT_2	TLR2.1_NT_2	TLR2.1_ST_2	TLR2.1_NTC_2	TLR2.1_HC_3	TLR2.1_NC_3	TLR2.1_SC_3	TLR2.1_HT_3	TLR2.1_NT_3	TLR2.1_ST_3	TLR2.1_NTC_3	TLR2.1_HC_4	TLR2.1_NC_4	TLR2.1_SC_4	TLR2.1_HT_4	TLR2.1_NT_4	TLR2.1_ST_4	TLR2.1_NTC_4	TLR2.1_HC_5	TLR2.1_NC_5	TLR2.1_SC_5	TLR2.1_HT_5	TLR2.1_NT_5	TLR2.1_ST_5	TLR2.1_HC_6	TLR2.1_NC_6	TLR2.1_SC_6	TLR2.1_HT_6	TLR2.1_NT_6	TLR2.1_ST_6	TLR2.1_HC_7	TLR2.1_NC_7	TLR2.1_SC_7	TLR2.1_HT_7	TLR2.1_NT_7	TLR2.1_ST_7	TLR2.1_HC_8	TLR2.1_NC_8	TLR2.1_SC_8	TLR2.1_HT_8	TLR2.1_NT_8	TLR2.1_ST_8
+Logistic_a:	213.596	5024	4582.38	221.654	5049.48	4533.39	133144	223.15	5354.36	4813.89	59062.8	4949	5011.75	143158	57.7085	6251.7	5136.85	6224.14	4795.5	584642	17.4021	6206.21	5779.77	6080.11	5058.68	2.22619e+006	4779.91	3571.4	5938.55	6290.77	5645.78	467352	4714.46	175.492	483020	5860.48	5392.97	1098.5	4764.85	1.57781e+006	178919	5929.58	5181.82	732.78	4635.95	1.62592e+006	5551.05	3350.79	4619.06	1.57519e+006	1.37036e+006	1.81828e+006
+Logistic_b:	-0.519779	-25.0661	-26.0254	-2.21083	-24.8264	-24.5319	-20.1893	-0.399507	-25.5471	-22.9192	-17.2274	-25.1596	-25.0341	-20.4695	-1.70842	-24.9741	-25.2801	-24.3772	-25.1842	-19.8085	-2.64877	-24.5835	-25.2708	-25.8295	-25.6378	-20.9239	-26.0687	-1.24001	-24.4923	-24.9289	-25.9914	-18.9183	-26.0736	-1.07544	-23.5785	-24.778	-24.3654	-1.06968	-25.0815	-17.1149	-18.3046	-24.5586	-24.9247	-1.17578	-25.6105	-17.1485	-24.0945	-24.4975	-24.8346	-16.9134	-16.15	-18.238
+Logistic_X0:	0.184858	38.7406	37.5546	106.488	39.3469	37.3709	54.5957	0.260735	37.3117	36.1802	59.806	37.8528	37.2792	53.6745	3.61302	39.1633	37.8529	39.5693	37.2892	53.3624	15.9681	36.7695	37.7033	37.5414	38.2879	55.9125	37.9748	2533.2	37.1437	36.7973	37.6887	52.5749	37.5568	226.306	51.9299	38.0481	36.8008	1313.76	38.7381	57.8907	58.4831	37.1756	38.4943	620.816	37.4374	57.8693	36.7631	37.0935	37.3285	58.0328	58.4466	57.1988
+Logistic_Y0:	2365.56	2515.28	2573.2	2509.06	2526.68	2553.42	2490.49	2457.59	2651.7	2544.71	2557.71	2572.31	2550.3	2507.88	2560.13	2643.08	2638.64	2641.57	2577.38	2532.44	2523.69	2631.6	2638.54	2628.69	2618.15	2615.19	2564.08	2500.4	2662.53	2706.32	2645.48	2627.55	2576.41	2534.73	2571.48	2642.86	2575.35	2559.81	2538.74	2514.75	2568.21	2589.27	2538.46	2508.61	2556.4	2564.57	2562.5	2522.78	2538.65	2513.36	2512.74	2525.83
+Logistic_Pvalue:	1.11022e-016	0	1.03074e-016	1.04236e-011	2.63457e-038	2.68299e-041	0	3.33067e-016	4.97253e-017	0	4.44089e-016	7.01556e-042	5.09924e-042	1.11022e-016	0	0	4.55464e-041	1.54719e-038	5.74034e-042	2.22045e-016	4.30052e-005	2.60141e-016	2.10997e-042	1.89034e-017	4.16523e-042	0	4.27348e-016	0	0	6.27276e-014	2.98491e-016	0	3.19364e-016	1.02708e-020	0	3.05272e-042	1.01717e-042	1.11022e-016	0	0	1.22125e-015	1.1078e-043	0	1.94356e-016	1.98542e-017	0	1.38636e-016	0	8.11471e-044	0	1.11022e-016	0
+Noise(SPE):	12.6998	1.66594	5.0971	25.3235	1.29415	2.24548	37.7512	16.9784	5.82076	3.89757	23.713	2.0239	2.32212	34.3585	3.82284	1.55934	2.31726	1.43341	2.23061	85.7698	9.69269	10.1553	2.30682	5.3579	1.77446	75.2702	5.74833	13.8857	2.6272	13.8747	7.04172	136.343	6.15123	10.0483	86.461	2.17776	2.54052	15.0806	1.6675	239.866	86.5709	2.29892	2.02295	7.93159	4.2628	237.54	8.46476	2.81386	1.70201	254.845	302.343	182.173
+EndofExpPhase(SDM):	Error!	3477.91	Error!	Error!	3493.25	3420.13	Error!	Error!	Error!	3458.31	Error!	3520.93	3510.47	Error!	Error!	3840.5	3623.74	3830.74	3496.67	Error!	Error!	Error!	3746.89	Error!	3589.63	Error!	Error!	Error!	3797.69	Error!	Error!	Error!	Error!	Error!	Error!	3764.45	3605.66	Error!	3451.77	Error!	Error!	3723.03	3530.76	Error!	Error!	Error!	Error!	3163.3	3422.86	Error!	Error!	Error!
+CP(SPE):	-47	28.1426	28.9192	42.1677	28.2007	27.4041	36.4298	-47	28.5663	26.521	37.9847	27.7608	27.4342	35.722	-45	28.0939	27.9101	28.0632	27.496	34.1749	17.4096	28.3259	27.6622	28.5926	28.0742	34.1848	29.3433	-45	27.0985	28.7934	29.1408	34.1923	29.1127	-45	36.0163	27.6639	26.8734	-45	28.2068	34.636	38.5411	26.9993	28.0964	13.3424	28.4944	34.5777	28.0889	27.7815	27.1512	34.6364	34.703	34.5233
+CP(SDM):	Error!	36.5783	Error!	Error!	37.1284	35.237	Error!	Error!	Error!	33.96	Error!	35.7484	35.1957	Error!	Error!	36.9689	35.7591	37.2948	35.2182	Error!	Error!	Error!	35.6169	Error!	36.2012	Error!	Error!	Error!	35.0192	Error!	Error!	Error!	Error!	Error!	Error!	35.8984	34.6843	Error!	36.5774	Error!	Error!	35.0553	36.3329	Error!	Error!	Error!	Error!	34.9724	35.2245	Error!	Error!	Error!
+DynamicThreshold:	Error!	2997.43	Error!	Error!	3010.61	2987.9	Error!	Error!	Error!	3003.46	Error!	3047.63	3031.55	Error!	Error!	3242.57	3132.35	3236.87	3038.14	Error!	Error!	Error!	3193.87	Error!	3104.78	Error!	Error!	Error!	3231.43	Error!	Error!	Error!	Error!	Error!	Error!	3204.75	3091.77	Error!	2996.09	Error!	Error!	3157.3	3035.62	Error!	Error!	Error!	Error!	2844.45	2981.61	Error!	Error!	Error!
+LowerCycleNumber:	Error!	12	Error!	Error!	11	11	Error!	Error!	Error!	11	Error!	12	11	Error!	Error!	12	12	11	11	Error!	Error!	Error!	12	Error!	12	Error!	Error!	Error!	10	Error!	Error!	Error!	Error!	Error!	Error!	12	11	Error!	12	Error!	Error!	11	11	Error!	Error!	Error!	Error!	10	11	Error!	Error!	Error!
+UpperCycleNumber:	Error!	19	Error!	Error!	18	18	Error!	Error!	Error!	18	Error!	19	18	Error!	Error!	19	19	18	18	Error!	Error!	Error!	19	Error!	19	Error!	Error!	Error!	17	Error!	Error!	Error!	Error!	Error!	Error!	19	18	Error!	19	Error!	Error!	18	18	Error!	Error!	Error!	Error!	17	18	Error!	Error!	Error!
+PointsForRegression:	Error!	8	Error!	Error!	8	8	Error!	Error!	Error!	8	Error!	8	8	Error!	Error!	8	8	8	8	Error!	Error!	Error!	8	Error!	8	Error!	Error!	Error!	8	Error!	Error!	Error!	Error!	Error!	Error!	8	8	Error!	8	Error!	Error!	8	8	Error!	Error!	Error!	Error!	8	8	Error!	Error!	Error!
+Number_OfRegressionWindows:	Error!	85	Error!	Error!	121	153	Error!	Error!	Error!	139	Error!	127	158	Error!	Error!	117	146	114	157	Error!	Error!	Error!	134	Error!	148	Error!	Error!	Error!	150	Error!	Error!	Error!	Error!	Error!	Error!	147	143	Error!	91	Error!	Error!	153	154	Error!	Error!	Error!	Error!	160	151	Error!	Error!	Error!
+WeightedAverage_OfPvalue:	Error!	0.000783387	Error!	Error!	0.00073041	0.000469149	Error!	Error!	Error!	0.00058602	Error!	0.000456963	0.000355849	Error!	Error!	0.000382438	0.000334667	0.000796012	0.000254141	Error!	Error!	Error!	0.000601448	Error!	0.000208849	Error!	Error!	Error!	0.000551094	Error!	Error!	Error!	Error!	Error!	Error!	0.000295146	0.000842379	Error!	0.000730768	Error!	Error!	0.000547631	0.00022973	Error!	Error!	Error!	Error!	0.000240209	0.000364407	Error!	Error!	Error!
+Stderr_OfWeightedPvalue:	Error!	0.00221384	Error!	Error!	0.00168828	0.000892023	Error!	Error!	Error!	0.000838716	Error!	0.000828923	0.000533763	Error!	Error!	0.00141876	0.000766847	0.00166366	0.000616263	Error!	Error!	Error!	0.00114717	Error!	0.000526195	Error!	Error!	Error!	0.000619251	Error!	Error!	Error!	Error!	Error!	Error!	0.000934017	0.00127316	Error!	0.00210788	Error!	Error!	0.000592072	0.000820054	Error!	Error!	Error!	Error!	0.000597674	0.000564554	Error!	Error!	Error!
+WeightedAverage_OfEfficiency:	Error!	0.854897	Error!	Error!	0.866981	0.856811	Error!	Error!	Error!	0.880223	Error!	0.835499	0.87425	Error!	Error!	0.847307	0.850419	0.857897	0.881871	Error!	Error!	Error!	0.854929	Error!	0.874836	Error!	Error!	Error!	0.864294	Error!	Error!	Error!	Error!	Error!	Error!	0.85655	0.876937	Error!	0.849242	Error!	Error!	0.860804	0.872279	Error!	Error!	Error!	Error!	0.88546	0.870667	Error!	Error!	Error!
+Stderr_OfWeightedEfficiency:	Error!	0.00856273	Error!	Error!	0.00538496	0.00346047	Error!	Error!	Error!	0.00443137	Error!	0.00580393	0.00464684	Error!	Error!	0.00470541	0.00461376	0.00507499	0.00523079	Error!	Error!	Error!	0.00622591	Error!	0.00458348	Error!	Error!	Error!	0.0043244	Error!	Error!	Error!	Error!	Error!	Error!	0.00541221	0.00443147	Error!	0.00559021	Error!	Error!	0.0037695	0.00398329	Error!	Error!	Error!	Error!	0.00392568	0.00462424	Error!	Error!	Error!
+CT:	Error!	35.4248	Error!	Error!	35.9459	34.1037	Error!	Error!	Error!	32.7962	Error!	34.6257	34.0854	Error!	Error!	35.7982	34.6415	36.0856	34.1136	Error!	Error!	Error!	34.503	Error!	35.0844	Error!	Error!	Error!	33.8907	Error!	Error!	Error!	Error!	Error!	Error!	34.7538	33.5612	Error!	35.4247	Error!	Error!	33.9281	35.1812	Error!	Error!	Error!	Error!	33.8488	34.1039	Error!	Error!	Error!
+TotalSampleNumber:	52
+ReplicateSampleNames:	TLR2.1_HC	TLR2.1_NC	TLR2.1_SC	TLR2.1_HT	TLR2.1_NT	TLR2.1_ST	TLR2.1_NTC
+AverageEfficiency_OfReplicateSamples	0.864294	0.859991	0.870105	0.866367	0.858398	0.86553	Error!
+StdErr_OfReplicateSamplesEfficiency:	0	0.00539634	0.00520384	0.00846944	0.0101358	0.00871927	Error!
+CoefficientVariation(CV%)_OfReplicateSamplesEfficiencies:	0	1.53703	1.33733	1.38251	2.36157	1.42466	Error!
+AverageCT_OfReplicateSamples:	33.8907	34.7095	34.0568	35.585	35.0275	34.0945	Error!
+StdErr_OfReplicateSamplesCT:	0	0.321087	0.41492	0.500644	0.408026	0.00915259	Error!
+CV%_OfReplicateSamplesCTs:	0	2.26595	2.72424	1.98965	2.32975	0.0379642	Error!
+GeneNames	TLR2.1
+AverageEfficiency_OfGenes:	0.864114
+Stdev_OfGenesEfficiency:	0.00175757
+MeanCV%_OfGenesEfficiencies	1.34052
+MeanCV%_OfGenesCTs	1.55793
+
+Some problems are found! ------Please check your data and re-run Realtime PCR Miner (Version 4.0, Author: Dr. Sheng Zhao, Email: windupzs@gmail.com).
+Error#1: Sample#1:TLR2.1_HC_1, Exponential phase fit failed!
+Error#2: Sample#3:TLR2.1_SC_1, Exponential phase fit failed!
+Error#3: Sample#4:TLR2.1_HT_1, Exponential phase fit failed!
+Error#4: Sample#7:TLR2.1_NTC_1, Exponential phase fit failed!
+Error#5: Sample#8:TLR2.1_HC_2, Exponential phase fit failed!
+Error#6: Sample#9:TLR2.1_NC_2, Exponential phase fit failed!
+Error#7: Sample#11:TLR2.1_HT_2, Exponential phase fit failed!
+Error#8: Sample#14:TLR2.1_NTC_2, Exponential phase fit failed!
+Error#9: Sample#15:TLR2.1_HC_3, Exponential phase fit failed!
+Error#10: Sample#20:TLR2.1_ST_3, Exponential phase fit failed!
+Error#11: Sample#21:TLR2.1_NTC_3, Exponential phase fit failed!
+Error#12: Sample#22:TLR2.1_HC_4, Exponential phase fit failed!
+Error#13: Sample#24:TLR2.1_SC_4, Exponential phase fit failed!
+Error#14: Sample#26:TLR2.1_NT_4, Exponential phase fit failed!
+Error#15: Sample#27:TLR2.1_ST_4, Exponential phase fit failed!
+Error#16: Sample#28:TLR2.1_NTC_4, Exponential phase fit failed!
+Error#17: Sample#30:TLR2.1_NC_5, Exponential phase fit failed!
+Error#18: Sample#31:TLR2.1_SC_5, Exponential phase fit failed!
+Error#19: Sample#32:TLR2.1_HT_5, Exponential phase fit failed!
+Error#20: Sample#33:TLR2.1_NT_5, Exponential phase fit failed!
+Error#21: Sample#34:TLR2.1_ST_5, Exponential phase fit failed!
+Error#22: Sample#35:TLR2.1_HC_6, Exponential phase fit failed!
+Error#23: Sample#38:TLR2.1_HT_6, Exponential phase fit failed!
+Error#24: Sample#40:TLR2.1_ST_6, Exponential phase fit failed!
+Error#25: Sample#41:TLR2.1_HC_7, Exponential phase fit failed!
+Error#26: Sample#44:TLR2.1_HT_7, Exponential phase fit failed!
+Error#27: Sample#45:TLR2.1_NT_7, Exponential phase fit failed!
+Error#28: Sample#46:TLR2.1_ST_7, Exponential phase fit failed!
+Error#29: Sample#47:TLR2.1_HC_8, Exponential phase fit failed!
+Error#30: Sample#50:TLR2.1_HT_8, Exponential phase fit failed!
+Error#31: Sample#51:TLR2.1_NT_8, Exponential phase fit failed!
+Error#32: Sample#52:TLR2.1_ST_8, Exponential phase fit failed!
