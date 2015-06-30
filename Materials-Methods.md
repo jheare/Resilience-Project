@@ -8,8 +8,9 @@ Ctenidia stored in 1mL RNAzol RT (Molecular Research Center, Inc.) at -80C were 
 
 
 ##DNase Treatment and Reverse Transcription
-Prior to creating cDNA, total RNA was treated with DNase to remove reisdual genomic DNA (gDNA) using the Turbo DNA-free Kit (Ambion/Life Technologies). The manufacturer's rigorous protocol was followed. Briefly, 1.5μg of total RNA was treated 0.5mL tubes in a reaction volume of 50μL. The samples were incubated with 1μL of DNase for 30 minutes at 37C. An additional 1μL of DNase was added to each sample and incubated at 37C for an additional 30 minutes. The DNase was inactivated with 0.2 volumes of the inactivation reagent according to the manufacturer's protocol. Samples were quantified using a NanoDrop1000 (ThermoFisher) and verified to be free of gDNA via quantitative PCR (qPCR).
-$$$needs RT details$$$$
+Prior to creating cDNA, total RNA was treated with DNase to remove reisdual genomic DNA (gDNA) using the Turbo DNA-free Kit (Ambion/Life Technologies). The manufacturer's rigorous protocol was followed. Briefly, 1.5μg of total RNA was treated in 0.5mL tubes in a reaction volume of 50μL. The samples were incubated with 1μL of DNase for 30 minutes at 37C. An additional 1μL of DNase was added to each sample and incubated at 37C for an additional 30 minutes. The DNase was inactivated with 0.2 volumes of the inactivation reagent according to the manufacturer's protocol. Samples were quantified using a NanoDrop1000 (ThermoFisher) and verified to be free of gDNA via quantitative PCR (qPCR).
+
+Reverse transcription was performed using M-MLV Reverse Transcriptase (Promega) with oligo dT primers (Promega), using 500ng of DNased RNA. The RNA was combined with 0.25ug of primers in a volume of 74.75uL, incubated at 70C for 5 minutes in a thermal cycler without a heated lid (PTC-200; MJ Research), and immediately placed on ice. Added 25.25uL to each RNA-primer mix of a master mix of 5x Reverse Transcriptase Buffer (Promega), 10mM each of dNTPs (Promega), and M-MMLV Reverse Transcriptase (50U/reactions). Samples were incubated at 42C for 1hr and then at 95C for 3 minutes in a thermal cycler without a heated lid (PTC-200; MJ Research) and then stored at -20C.
 
 ## Quantitative PCR
 $$$THis can written ASAP$$$
