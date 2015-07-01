@@ -7,7 +7,7 @@ Run Ended,06/27/2015 00:47:54 UTC
 Sample Vol,20
 Lid Temp,105
 Protocol File Name,Jake_CFX_3StepAmp+Melt.prcl
-Plate Setup File Name,QuickPlate_96 wells_All Channels_White.pltd
+Plate Setup File Name,platesetup.pltd
 Base Serial Number,CC009827
 Optical Head Serial Number,785BR3659
 CFX Manager Version,3.1.1517.0823. 
