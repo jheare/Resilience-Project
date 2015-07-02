@@ -6,5 +6,5 @@
 ![](./TLRntc.jpg)
 
 #Crude expression (nn)
-![](./crude_exp.png)
+![](./crude-exp.png)
 
