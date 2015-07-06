@@ -55,7 +55,12 @@ ggplot(test2, aes(x=Names,y=normalized, fill=c(Pop)))+geom_bar(stat="identity")
 
 popwe<-ddply(test2, .(Pop,Treat),summarize,pop_mean=mean(normalized),pop_sd=sd(normalized))
 
-ggplot(test2[which(test2$Pop==c("H","N","S")),], aes(x=c(Treat),y=normalized, fill=c(Pop)))+geom_boxplot()
+test3<-test2[which(test2$Pop!="NT"),]
+
+popwe<-ddply(test3, .(Pop,Treat),summarize,pop_mean=mean(normalized),pop_sd=sd(normalized))
+
+ggplot(test3, aes(x=Treat,y=normalized, fill=Pop))+geom_boxplot()
+
 
 act1<-read.csv("Actin1rawfluoro.csv", header = T)
 act1$X<-NULL
