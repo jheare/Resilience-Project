@@ -2,8 +2,9 @@
 
 Run Summary
 
-| **plate_date_ID**        | **Machine**    | **gene_target**    | **notes**                                       |
+| **plate_date_ID **       | **Machine**    | **gene_target**    | **notes**                                       |
 |----------------------|------------|----------------|---------------------------------------------|
+| [762015][762015]     | BioRAD CFX | Actin          | 4/4 NTC amped, product smaller than target  |
 | [712015b][712015b]   | BioRAD CFX | TLR            | 2/4 NTC amped, product size equal to target |
 | [712015][712015]     | BioRAD CFX | CRAF           |                                             |
 | [6302015][6302015]   | BioRAD CFX | CRAF           |                                             |
@@ -22,6 +23,7 @@ Run Summary
 | [5262015][5262015]   | Opticon 2  | Primer Check 1 | Check of Primer                             |
 
 
+[762015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/762015
 [712015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/712015b
 [712015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/712015
 [6302015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/6302015
