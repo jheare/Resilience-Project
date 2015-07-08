@@ -5,7 +5,7 @@ require(ggplot2)
 require(splitstackshape)
 
 #Read in raw fluorescence data from 1st Actin replicate
-act3<-read.csv("Actin3rawfluoro.csv", header = T)
+act3<-read.csv("CRAF4rawfluoro.csv", header = T)
 #Remove blank first column entitled "X"
 act3$X<-NULL
 #Rename columns so that qpcR package and appropriately handle the data
@@ -46,7 +46,7 @@ act3res2<-cSplit_f(act3res, splitCols=c("Names"), sep="_", drop = F)
 act3res2<-rename(act3res2, c("Names_1"="Pop", "Names_2"="Treat", "Names_3"="Sample"))
 
 #I also create a column with the target gene name. This isn't used in this analysis but will be helpful for future work.
-act3res2$Gene<-rep("Actin", length(act3res2))
+act3res2$Gene<-rep("CRAF", length(act3res2))
 
 #In transposing the data frame, the column entries became factors which cannot be used for equations.
 #to fix this, I set the entries for sig.eff (efficiency) and sig.cpD2 (Ct value) to numeric. Be aware, without the as.character function the factors will be transformed inappropriately.
@@ -73,7 +73,7 @@ ggplot(act3res2, aes(x=Names,y=expression, fill=Pop))+geom_bar(stat="identity")
 
 #Before I'm able to compare the replicates I need to process the raw fluorescence from the second Actin run.
 #To do this I perform all the same steps as the previous replicate.
-act4<-read.csv("Actin4rawfluoro.csv", header = T)
+act4<-read.csv("CRAF5rawfluoro.csv", header = T)
 act4$X<-NULL
 act4<-rename(act4, c("Cycle" = "Cycles", "A1" = "H_C_1", "A2" = "N_C_1",
                      "A3"= "S_C_1", "A4"="H_T_1", "A5"="N_T_1","A6"="S_T_1",
@@ -101,7 +101,7 @@ act4res2<-cSplit_f(act4res, splitCols=c("Names"), sep="_", drop = F)
 
 act4res2<-rename(act4res2, c("Names_1"="Pop", "Names_2"="Treat", "Names_3"="Sample"))
 
-act4res2$Gene<-rep("Actin", length(act4res2))
+act4res2$Gene<-rep("CRAF", length(act4res2))
 
 act4res2$sig.eff<-as.numeric(as.character(act4res2$sig.eff))
 act4res2$sig.cpD2<-as.numeric(as.character(act4res2$sig.cpD2))
@@ -129,5 +129,7 @@ repcomp<-cSplit_f(repcomp, splitCols=c("Names"), sep="_", drop = F)
 #To better address the difference column in ggplot I need to rename it something simple and short. 
 repcomp<-rename(repcomp, c("act3res2$sig.cpD2 - act4res2$sig.cpD2"="rep.diff", "Names_1"="Pop", "Names_2"="Treat", "Names_3"="Sample"))
 
+
+repcomp<-repcomp[which(repcomp$Pop!=c("NT","**NT")),]
 #Now I just run the data through ggplot to generate a bar graph exploring the differences between the two replicate in terms of Ct values.
 ggplot(repcomp, aes(x=Names, y=rep.diff, fill=Pop))+geom_bar(stat="identity")
