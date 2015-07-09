@@ -207,7 +207,7 @@ ggplot(rep3res2, aes(x=Names,y=expression, fill=Pop))+geom_bar(stat="identity")
 
 #Before I'm able to compare the replicates I need to process the raw fluorescence from the second Actin run.
 #To do this I perform all the same steps as the previous replicate.
-rep4<-read.csv("Actin4rawfluoro.csv", header = T)
+rep4<-read.csv("Actin2rawfluoro.csv", header = T)
 rep4$X<-NULL
 rep4<-rename(rep4, c("Cycle" = "Cycles", "A1" = "H_C_1", "A2" = "N_C_1",
                      "A3"= "S_C_1", "A4"="H_T_1", "A5"="N_T_1","A6"="S_T_1",
