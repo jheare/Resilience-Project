@@ -5,7 +5,7 @@ require(ggplot2)
 require(splitstackshape)
 
 #Read in raw fluorescence data from 1st Actin replicate
-rep1<-read.csv("CRAF4rawfluoro.csv", header = T)
+rep1<-read.csv("CARM3rawfluoro.csv", header = T)
 #Remove blank first column entitled "X"
 rep1$X<-NULL
 #Rename columns so that qpcR package and appropriately handle the data
@@ -25,7 +25,7 @@ rep1<-rename(rep1, c("Cycle" = "Cycles", "A1" = "H_C_1", "A2" = "N_C_1",
                        "H5"="N_T_8", "H6"="S_T_8"))
 
 #Run data through pcrbatch in qpcR package which analyzes fluorescence and produces efficiency and cycle threshold values
-rep13ct<-pcrbatch(rep1, fluo=NULL)
+rep1ct<-pcrbatch(rep1, fluo=NULL)
 
 #pcrbatch creates a file with each sample as an individual column in the dataframe. The problem with this is
 #that I want to compare all the Ct (labelled sig.cpD2) and generate expression data for them but these values have to be
@@ -73,7 +73,7 @@ ggplot(rep1res2, aes(x=Names,y=expression, fill=Pop))+geom_bar(stat="identity")
 
 #Before I'm able to compare the replicates I need to process the raw fluorescence from the second Actin run.
 #To do this I perform all the same steps as the previous replicate.
-rep2<-read.csv("CRAF5rawfluoro.csv", header = T)
+rep2<-read.csv("CARM4rawfluoro.csv", header = T)
 rep2$X<-NULL
 rep2<-rename(rep2, c("Cycle" = "Cycles", "A1" = "H_C_1", "A2" = "N_C_1",
                      "A3"= "S_C_1", "A4"="H_T_1", "A5"="N_T_1","A6"="S_T_1",
@@ -129,7 +129,5 @@ repcomp<-cSplit_f(repcomp, splitCols=c("Names"), sep="_", drop = F)
 #To better address the difference column in ggplot I need to rename it something simple and short. 
 repcomp<-rename(repcomp, c("rep1res2$sig.cpD2 - rep2res2$sig.cpD2"="rep.diff", "Names_1"="Pop", "Names_2"="Treat", "Names_3"="Sample"))
 
-
-repcomp<-repcomp[which(repcomp$Pop!=c("NT","**NT")),]
 #Now I just run the data through ggplot to generate a bar graph exploring the differences between the two replicate in terms of Ct values.
 ggplot(repcomp, aes(x=Names, y=rep.diff, fill=Pop))+geom_bar(stat="identity")
