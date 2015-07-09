@@ -285,3 +285,8 @@ ggplot(actstandard, aes(x=treat,y=avgexpr, fill=pop))+geom_boxplot()
 fit<-aov(avgexpr~pop+treat+pop:treat,data=actstandard)
 fit
 TukeyHSD(fit)
+
+actmean<-read.csv("SR-mean-actin-0709.csv",header=T)
+
+fit2<-aov(MeanActin~pop+treat+pop:treat,data=actmean)
+TukeyHSD(fit2)
