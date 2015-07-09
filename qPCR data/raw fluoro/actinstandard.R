@@ -268,8 +268,11 @@ repcomp<-rename(repcomp, c("rep3res2$sig.cpD2 - rep4res2$sig.cpD2"="rep.diff", "
 #Now I just run the data through ggplot to generate a bar graph exploring the differences between the two replicate in terms of Ct values.
 ggplot(repcomp, aes(x=Names, y=rep.diff, fill=Pop))+geom_bar(stat="identity")
 
-actstandard<-as.data.frame(cbind(rep1res2$expression,rep1res2$Names,rep1res2$Pop,rep1res2$Treat,rep2res2$expression,rep3res2$expression,rep4res2$expression))
-actstandard<-rename(actstandard, c(V1="rep1.expr","V2"="name","V3"="pop","V4"="treat","V5"="rep2.expr","V6"="rep3.expr","V7"="rep4.expr"))
+actstandard<-as.data.frame(cbind(rep1res2$expression,rep1res2$Names,rep1res2$Pop,rep1res2$Treat,rep2res2$expression,rep3res2$expression,rep4res2$expression,rep1res2$sig.cpD2,rep2res2$sig.cpD2,rep3res2$sig.cpD2,rep4res2$sig.cpD2))
+actstandard<-rename(actstandard, c(V1="rep1.expr","V2"="name","V3"="pop","V4"="treat"
+                                   ,"V5"="rep2.expr","V6"="rep3.expr","V7"="rep4.expr",
+                                   "V8"="rep1.Ct","V9"="rep2.Ct","V10"="rep3.Ct","V11"="rep4.Ct"))
+write.csv(actstandard, file="ActinallrepCt.csv", row.names=F)
 actstandard$rep1.expr<-as.numeric(as.character(actstandard$rep1.expr))
 actstandard$rep2.expr<-as.numeric(as.character(actstandard$rep2.expr))
 actstandard$rep3.expr<-as.numeric(as.character(actstandard$rep3.expr))

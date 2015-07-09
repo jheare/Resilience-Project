@@ -27,3 +27,6 @@ write.csv(act2ct, file = "Actinrep2ct.csv", row.names = F)
 write.csv(carm1ct, file = "CARMrep1ct.csv", row.names = F)
 write.csv(carm2ct, file = "CARMrep2ct.csv", row.names = F)
 write.csv(craf1ct, file = "CRAFrep1ct.csv", row.names = F)
+
+
+repcomp<-repcomp[which(repcomp$Pop!=c("NT","**NT")),]
