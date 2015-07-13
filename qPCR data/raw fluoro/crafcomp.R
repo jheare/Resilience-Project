@@ -48,8 +48,6 @@ rep1res2<-rename(rep1res2, c("Names_1"="Pop", "Names_2"="Treat", "Names_3"="Samp
 #I also create a column with the target gene name. This isn't used in this analysis but will be helpful for future work.
 rep1res2$Gene<-rep("CARM", length(rep1res2))
 
-
-write.csv(rep2res2, file="CRAF1ct.csv", row.names=F)
 #In transposing the data frame, the column entries became factors which cannot be used for equations.
 #to fix this, I set the entries for sig.eff (efficiency) and sig.cpD2 (Ct value) to numeric. Be aware, without the as.character function the factors will be transformed inappropriately.
 rep1res2$sig.eff<-as.numeric(as.character(rep1res2$sig.eff))
@@ -108,7 +106,6 @@ rep2res2$Gene<-rep("CRAF", length(rep2res2))
 rep2res2$sig.eff<-as.numeric(as.character(rep2res2$sig.eff))
 rep2res2$sig.cpD2<-as.numeric(as.character(rep2res2$sig.cpD2))
 
-write.csv(rep2res2, file="CRAF2ct.csv", row.names=F)
 
 ggplot(rep2res2, aes(x=Names,y=sig.cpD2, fill=Pop))+geom_bar(stat="identity")
 
@@ -148,7 +145,11 @@ craf$avgexpr<-rowMeans(craf[,c("rep1.expr","rep2.expr")],na.rm=F)
 
 craf<-craf[which(craf$pop!=c("NT","**NT")),]
 
+craf<-craf[which(craf$pop!=c("NT","**NT")),]
+
 ggplot(craf, aes(x=treat,y=avgexpr, fill=pop))+geom_boxplot()
+
+ggplot(craf, aes(x=pop,y=avgexpr, fill=pop))+geom_boxplot()
 
 fit<-aov(avgexpr~pop+treat+pop:treat,data=craf)
 fit

@@ -48,8 +48,6 @@ rep1res2<-rename(rep1res2, c("Names_1"="Pop", "Names_2"="Treat", "Names_3"="Samp
 #I also create a column with the target gene name. This isn't used in this analysis but will be helpful for future work.
 rep1res2$Gene<-rep("Actin", length(rep1res2))
 
-write.csv(rep2res2, file="Actin1ct.csv", row.names=F)
-
 #In transposing the data frame, the column entries became factors which cannot be used for equations.
 #to fix this, I set the entries for sig.eff (efficiency) and sig.cpD2 (Ct value) to numeric. Be aware, without the as.character function the factors will be transformed inappropriately.
 rep1res2$sig.eff<-as.numeric(as.character(rep1res2$sig.eff))
@@ -107,8 +105,6 @@ rep2res2$Gene<-rep("Actin", length(rep2res2))
 
 rep2res2$sig.eff<-as.numeric(as.character(rep2res2$sig.eff))
 rep2res2$sig.cpD2<-as.numeric(as.character(rep2res2$sig.cpD2))
-
-write.csv(rep2res2, file="Actin2ct.csv", row.names=F)
 
 ggplot(rep2res2, aes(x=Names,y=sig.cpD2, fill=Pop))+geom_bar(stat="identity")
 
@@ -180,8 +176,6 @@ rep3res2<-rename(rep3res2, c("Names_1"="Pop", "Names_2"="Treat", "Names_3"="Samp
 #I also create a column with the target gene name. This isn't used in this analysis but will be helpful for future work.
 rep3res2$Gene<-rep("Actin", length(rep3res2))
 
-write.csv(rep3res2, file="Actin3ct.csv", row.names=F)
-
 #In transposing the data frame, the column entries became factors which cannot be used for equations.
 #to fix this, I set the entries for sig.eff (efficiency) and sig.cpD2 (Ct value) to numeric. Be aware, without the as.character function the factors will be transformed inappropriately.
 rep3res2$sig.eff<-as.numeric(as.character(rep3res2$sig.eff))
@@ -240,8 +234,6 @@ rep4res2$Gene<-rep("Actin", length(rep4res2))
 rep4res2$sig.eff<-as.numeric(as.character(rep4res2$sig.eff))
 rep4res2$sig.cpD2<-as.numeric(as.character(rep4res2$sig.cpD2))
 
-write.csv(rep4res2, file="Actin4ct.csv", row.names=F)
-
 ggplot(rep4res2, aes(x=Names,y=sig.cpD2, fill=Pop))+geom_bar(stat="identity")
 
 expr<-function(x,y){
@@ -272,7 +264,7 @@ actstandard<-as.data.frame(cbind(rep1res2$expression,rep1res2$Names,rep1res2$Pop
 actstandard<-rename(actstandard, c(V1="rep1.expr","V2"="name","V3"="pop","V4"="treat"
                                    ,"V5"="rep2.expr","V6"="rep3.expr","V7"="rep4.expr",
                                    "V8"="rep1.Ct","V9"="rep2.Ct","V10"="rep3.Ct","V11"="rep4.Ct"))
-write.csv(actstandard, file="ActinallrepCt.csv", row.names=F)
+
 actstandard$rep1.expr<-as.numeric(as.character(actstandard$rep1.expr))
 actstandard$rep2.expr<-as.numeric(as.character(actstandard$rep2.expr))
 actstandard$rep3.expr<-as.numeric(as.character(actstandard$rep3.expr))
@@ -280,13 +272,13 @@ actstandard$rep4.expr<-as.numeric(as.character(actstandard$rep4.expr))
 
 actstandard$avgexpr<-rowMeans(actstandard[,c("rep1.expr","rep2.expr","rep3.expr","rep4.expr")],na.rm=F)
 
+actstandard<-actstandard[which(actstandard$pop!=c("NT")),]
+
 ggplot(actstandard, aes(x=treat,y=avgexpr, fill=pop))+geom_boxplot()
+
+ggplot(actstandard, aes(x=pop,y=avgexpr, fill=pop))+geom_boxplot()
 
 fit<-aov(avgexpr~pop+treat+pop:treat,data=actstandard)
 fit
 TukeyHSD(fit)
 
-actmean<-read.csv("SR-mean-actin-0709.csv",header=T)
-
-fit2<-aov(MeanActin~pop+treat+pop:treat,data=actmean)
-TukeyHSD(fit2)

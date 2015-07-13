@@ -5,24 +5,24 @@ require(ggplot2)
 require(splitstackshape)
 
 #Read in raw fluorescence data from 1st Actin replicate
-rep1<-read.csv("CARM3rawfluoro.csv", header = T)
+rep1<-read.csv("TLR1rawfluoro.csv", header = T)
 #Remove blank first column entitled "X"
 rep1$X<-NULL
 #Rename columns so that qpcR package and appropriately handle the data
 rep1<-rename(rep1, c("Cycle" = "Cycles", "A1" = "H_C_1", "A2" = "N_C_1",
-                       "A3"= "S_C_1", "A4"="H_T_1", "A5"="N_T_1","A6"="S_T_1",
-                       "A7"="NT_C_1","B1" = "H_C_2", "B2" = "N_C_2","B3"= "S_C_2",
-                       "B4"="H_T_2", "B5"="N_T_2", "B6"="S_T_2","B7"="NT_C_2",
-                       "C1" = "H_C_3", "C2" = "N_C_3","C3"= "S_C_3","C4"="H_T_3",
-                       "C5"="N_T_3", "C6"="S_T_3", "C7"="NT_C_3","D1" = "H_C_4",
-                       "D2" = "N_C_4","D3"= "S_C_4", "D4"="H_T_4", "D5"="N_T_4",
-                       "D6"="S_T_4", "D7"="NT_C_4","E1" = "H_C_5", "E2" = "N_C_5",
-                       "E3"= "S_C_5", "E4"="H_T_5", "E5"="N_T_5", "E6"="S_T_5",
-                       "F1" = "H_C_6", "F2" = "N_C_6","F3"= "S_C_6", "F4"="H_T_6",
-                       "F5"="N_T_6", "F6"="S_T_6","G1" = "H_C_7", "G2" = "N_C_7",
-                       "G3"= "S_C_7", "G4"="H_T_7", "G5"="N_T_7", "G6"="S_T_7",
-                       "H1" = "H_C_8", "H2" = "N_C_8","H3"= "S_C_8", "H4"="H_T_8",
-                       "H5"="N_T_8", "H6"="S_T_8"))
+                     "A3"= "S_C_1", "A4"="H_T_1", "A5"="N_T_1","A6"="S_T_1",
+                     "A7"="NT_C_1","B1" = "H_C_2", "B2" = "N_C_2","B3"= "S_C_2",
+                     "B4"="H_T_2", "B5"="N_T_2", "B6"="S_T_2","B7"="NT_C_2",
+                     "C1" = "H_C_3", "C2" = "N_C_3","C3"= "S_C_3","C4"="H_T_3",
+                     "C5"="N_T_3", "C6"="S_T_3", "C7"="NT_C_3","D1" = "H_C_4",
+                     "D2" = "N_C_4","D3"= "S_C_4", "D4"="H_T_4", "D5"="N_T_4",
+                     "D6"="S_T_4", "D7"="NT_C_4","E1" = "H_C_5", "E2" = "N_C_5",
+                     "E3"= "S_C_5", "E4"="H_T_5", "E5"="N_T_5", "E6"="S_T_5",
+                     "F1" = "H_C_6", "F2" = "N_C_6","F3"= "S_C_6", "F4"="H_T_6",
+                     "F5"="N_T_6", "F6"="S_T_6","G1" = "H_C_7", "G2" = "N_C_7",
+                     "G3"= "S_C_7", "G4"="H_T_7", "G5"="N_T_7", "G6"="S_T_7",
+                     "H1" = "H_C_8", "H2" = "N_C_8","H3"= "S_C_8", "H4"="H_T_8",
+                     "H5"="N_T_8", "H6"="S_T_8"))
 
 #Run data through pcrbatch in qpcR package which analyzes fluorescence and produces efficiency and cycle threshold values
 rep1ct<-pcrbatch(rep1, fluo=NULL)
@@ -46,8 +46,7 @@ rep1res2<-cSplit_f(rep1res, splitCols=c("Names"), sep="_", drop = F)
 rep1res2<-rename(rep1res2, c("Names_1"="Pop", "Names_2"="Treat", "Names_3"="Sample"))
 
 #I also create a column with the target gene name. This isn't used in this analysis but will be helpful for future work.
-rep1res2$Gene<-rep("CARM", length(rep1res2))
-
+rep1res2$Gene<-rep("TLR", length(rep1res2))
 
 #In transposing the data frame, the column entries became factors which cannot be used for equations.
 #to fix this, I set the entries for sig.eff (efficiency) and sig.cpD2 (Ct value) to numeric. Be aware, without the as.character function the factors will be transformed inappropriately.
@@ -74,7 +73,7 @@ ggplot(rep1res2, aes(x=Names,y=expression, fill=Pop))+geom_bar(stat="identity")
 
 #Before I'm able to compare the replicates I need to process the raw fluorescence from the second Actin run.
 #To do this I perform all the same steps as the previous replicate.
-rep2<-read.csv("CARM4rawfluoro.csv", header = T)
+rep2<-read.csv("TLR2rawfluoro.csv", header = T)
 rep2$X<-NULL
 rep2<-rename(rep2, c("Cycle" = "Cycles", "A1" = "H_C_1", "A2" = "N_C_1",
                      "A3"= "S_C_1", "A4"="H_T_1", "A5"="N_T_1","A6"="S_T_1",
@@ -102,7 +101,7 @@ rep2res2<-cSplit_f(rep2res, splitCols=c("Names"), sep="_", drop = F)
 
 rep2res2<-rename(rep2res2, c("Names_1"="Pop", "Names_2"="Treat", "Names_3"="Sample"))
 
-rep2res2$Gene<-rep("CARM", length(rep2res2))
+rep2res2$Gene<-rep("TLR", length(rep2res2))
 
 rep2res2$sig.eff<-as.numeric(as.character(rep2res2$sig.eff))
 rep2res2$sig.cpD2<-as.numeric(as.character(rep2res2$sig.cpD2))
@@ -134,22 +133,30 @@ repcomp<-rename(repcomp, c("rep1res2$sig.cpD2 - rep2res2$sig.cpD2"="rep.diff", "
 #Now I just run the data through ggplot to generate a bar graph exploring the differences between the two replicate in terms of Ct values.
 ggplot(repcomp, aes(x=Names, y=rep.diff, fill=Pop))+geom_bar(stat="identity")
 
-carm<-as.data.frame(cbind(rep1res2$expression,rep1res2$Names,rep1res2$Pop,rep1res2$Treat,rep2res2$expression))
-carm<-rename(carm, c(V1="rep1.expr","V2"="name","V3"="pop","V4"="treat"
+tlr<-as.data.frame(cbind(rep1res2$expression,rep1res2$Names,rep1res2$Pop,rep1res2$Treat,rep2res2$expression))
+tlr<-rename(tlr, c(V1="rep1.expr","V2"="name","V3"="pop","V4"="treat"
                      ,"V5"="rep2.expr"))
 
-carm$rep1.expr<-as.numeric(as.character(carm$rep1.expr))
-carm$rep2.expr<-as.numeric(as.character(carm$rep2.expr))
+tlr$rep1.expr<-as.numeric(as.character(tlr$rep1.expr))
+tlr$rep2.expr<-as.numeric(as.character(tlr$rep2.expr))
 
 
-carm$avgexpr<-rowMeans(carm[,c("rep1.expr","rep2.expr")],na.rm=F)
+tlr$avgexpr<-rowMeans(tlr[,c("rep1.expr","rep2.expr")],na.rm=F)
 
-carm<-carm[which(carm$pop!=c("NT")),]
+tlr<-tlr[which(tlr$name!=c("H_C_3")),]
+tlr<-tlr[which(tlr$name!=c("H_T_2")),]
 
-ggplot(carm, aes(x=treat,y=avgexpr, fill=pop))+geom_boxplot()
+tlr<-tlr[which(tlr$pop!=c("**S")),]
+tlr<-tlr[which(tlr$pop!=c("**H")),]
+tlr<-tlr[which(tlr$pop!=c("**NT")),]
+tlr<-tlr[which(tlr$pop!=c("NT")),]
+tlr<-tlr[which(tlr$pop!=c("*N")),]
 
-ggplot(carm, aes(x=pop,y=avgexpr, fill=pop))+geom_boxplot()
+ggplot(tlr, aes(x=treat,y=avgexpr, fill=pop))+geom_boxplot()
 
-fit<-aov(avgexpr~pop+treat+pop:treat,data=carm)
+ggplot(tlr, aes(x=pop,y=avgexpr, fill=pop))+geom_boxplot()
+
+fit<-aov(avgexpr~pop+treat+pop:treat,data=tlr)
 fit
+
 TukeyHSD(fit)
