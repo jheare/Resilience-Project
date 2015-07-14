@@ -148,7 +148,7 @@ carm<-carm[which(carm$pop!=c("NT")),]
 
 ggplot(carm, aes(x=treat,y=avgexpr, fill=pop))+geom_boxplot()
 
-ggplot(carm, aes(x=pop,y=avgexpr, fill=pop))+geom_boxplot()
+ggplot(carm, aes(x=pop,y=avgexpr, fill=treat))+geom_boxplot()
 
 fit<-aov(avgexpr~pop+treat+pop:treat,data=carm)
 fit

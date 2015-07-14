@@ -149,7 +149,7 @@ craf<-craf[which(craf$pop!=c("NT","**NT")),]
 
 ggplot(craf, aes(x=treat,y=avgexpr, fill=pop))+geom_boxplot()
 
-ggplot(craf, aes(x=pop,y=avgexpr, fill=pop))+geom_boxplot()
+ggplot(craf, aes(x=pop,y=avgexpr, fill=treat))+geom_boxplot()
 
 fit<-aov(avgexpr~pop+treat+pop:treat,data=craf)
 fit
