@@ -22,4 +22,4 @@ Protocol for Quantitative PCR was as follows. A master mix for each target gene 
 To generate data for use in statistical analysis, raw fluorescence data was exported from the qPCR runs on the BioRad CFX with no baseline subtraction. This data was then read as a CSV into R and formatted to run with the qPCR analysis package, qpcR (XXXX,2015). The qpcR package then fits the raw fluorescence data to the sigmoidal model (xxxx,xxxx) which generates efficiency and cycle thresholds for each sample. Taking these data, I then generated expression values using the equation 
 >Expression=1/(1+Efficiency)^Cycle Threshold. 
 
-This 
+This value was then normalized using expression values from a normalizing gene (XXXX). These values were then run through an ANOVA and a post-hoc Tukey's Honestly Significant Differences to determine significant differences between normalized expression values. 
