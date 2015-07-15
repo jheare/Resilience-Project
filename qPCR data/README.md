@@ -4,6 +4,7 @@ Run Summary
 
 | **plate_date_ID**    | **Machine** | **gene_target** | **notes**                                      |
 |----------------------|-------------|-----------------|------------------------------------------------|
+| [7142015][7142015]   | BioRAD CFX  | Elong           | No amplification                               |
 | [7132015b][7132015b] | BioRAD CFX  | TLR             | 2/4 NTC amped, product size larger than target |
 | [7132015][7132015]   | BioRAD CFX  | TLR             | 1/4 NTC amped, product size equal to target    |
 | [782015b][782015b]   | BioRAD CFX  | CARM            | 4/4 NTC amped, larger product than target      |
@@ -30,6 +31,7 @@ Run Summary
 | [5262015][5262015]   | Opticon 2   | Primer Check 1  | Check of Primer                                |
 
 
+[7142015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7142015
 [7132015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7132015b
 [7132015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7132015
 [782015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/782015b
