@@ -4,7 +4,7 @@ require(ggplot2)
 require(splitstackshape)
 
 
-rep2<-read.csv("HSP70rawfluoro.csv", header = T)
+rep2<-read.csv("HSPb11rawfluoro.csv", header = T)
 rep2$X<-NULL
 rep2<-rename(rep2, c("Cycle" = "Cycles", "A1" = "H_C_1", "A2" = "N_C_1",
                      "A3"= "S_C_1", "A4"="H_T_1", "A5"="N_T_1","A6"="S_T_1",
@@ -47,10 +47,33 @@ expr<-function(x,y){
 
 rep2res2$expression<-expr(rep2res2$sig.eff, rep2res2$sig.cpD2)
 
-ggplot(rep2res2, aes(x=Names,y=expression, fill=Pop))+geom_bar(stat="identity")
-
 rep2res2<-rep2res2[which(rep2res2$Pop!=c("NT")),]
+
+rep2res2<-rep2res2[rep2res2$expression<=.000000001,]
+
+ggplot(rep2res2, aes(x=Names,y=expression, fill=Pop))+geom_bar(stat="identity")
+ggplot(rep2res2, aes(x=Treat, y=expression, fill=Pop))+geom_boxplot()
+
 
 fit<-aov(expression~Pop+Treat+Pop:Treat,data=rep2res2)
 fit
 TukeyHSD(fit)
+
+fit2<-aov(expression~Pop, data=rep2res2[Treat=="C"])
+fit2
+TukeyHSD(fit2)
+
+fit3<-aov(expression~Pop, data=rep2res2[Treat=="T"])
+fit3
+TukeyHSD(fit3)
+
+fit4<-t.test(expression~Treat, data=rep2res2[Pop=="H"])
+fit4
+
+fit5<-t.test(expression~Treat, data=rep2res2[Pop=="N"])
+fit5
+
+fit6<-t.test(expression~Treat, data=rep2res2[Pop=="S"])
+fit6
+
+
