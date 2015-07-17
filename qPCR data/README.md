@@ -4,6 +4,9 @@ Run Summary
 
 | **plate_date_ID**    | **Machine** | **gene_target** | **notes**                                               |
 |----------------------|-------------|-----------------|---------------------------------------------------------|
+| [7172015][7172015]   | BioRAD CFX  | HSPb11          | 1/4 NTC amped, product smaller than target              |
+| [7162015c][7162015c] | BioRAD CFX  | BMP2            | 1/4 NTC amped, product larger than target               |
+| [7162015b][7162015b] | BioRAD CFX  | PGRP            | 4/4 NTC amped, product larger than target               |
 | [7162015][7162015]   | BioRAD CFX  | HSP70           | 2/4 NTC amped, product larger than target               |
 | [7152015c][7152015c] | BioRAD CFX  | H2A             | 1/4 NTC amped, product smaller than target              |
 | [7152015b][7152015b] | BioRAD CFX  | H2A.V           | minor amplification in NTCs, product larger than target |
@@ -35,7 +38,9 @@ Run Summary
 | [5272015][5272015]   | Opticon 2   | Primer Check 2  | Check of Primer                                         |
 | [5262015][5262015]   | Opticon 2   | Primer Check 1  | Check of Primer                                         |
 
-
+[7172015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7172015
+[7162015c]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7152015c
+[7162015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7162015b
 [7162015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7162015
 [7152015c]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7152015c
 [7152015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7152015b
