@@ -231,3 +231,93 @@ Adjusted Expression Boxplot
 
 Stats Summary
 
+T-Test for FIDALGO
+
+Welch Two Sample t-test
+
+data:  expression by Treat
+
+**t = 2.3858, df = 6.45, p-value = 0.05145**
+
+alternative hypothesis: true difference in means is not equal to 0
+
+95 percent confidence interval:
+ -1.839971e-15  4.349814e-13
+
+sample estimates:
+
+mean in group C = 2.848375e-13    
+mean in group T =  6.826683e-14
+
+
+___
+HSP70
+___
+
+Adjusted Expression Bargraph
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7162015/adjexprHSP70.jpeg)
+
+Adjusted Expression Boxplot
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7162015/adjboxplotHSP70.jpeg)
+
+Stats Summary
+
+T-TEST for FIDALGO
+
+Welch Two Sample t-test
+
+data:  expression by Treat
+
+**t = 2.4769, df = 9.628, p-value = 0.03356**
+
+alternative hypothesis: true difference in means is not equal to 0
+
+95 percent confidence interval:
+ 2.343991e-12 4.663070e-11
+
+sample estimates:
+
+mean in group C = 3.25748e-11     
+mean in group T = 8.08745e-12
+
+
+____
+H2A
+____
+
+Adjusted Expression Bargraph
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7152015c/adjexprH2A.jpeg)
+
+Adjusted Expression Boxplot
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7152015c/adjboxplotH2A.jpeg) 
+
+Stats Summary
+
+T-TEST for DABOB
+
+Welch Two Sample t-test
+
+data:  expression by Treat
+
+**t = -2.5837, df = 8.363, p-value = 0.03128**
+
+alternative hypothesis: true difference in means is not equal to 0
+
+95 percent confidence interval:
+ -2.099982e-11 -1.271558e-12
+
+sample estimates:
+
+mean in group C = 4.129758e-12     
+mean in group T = 1.526545e-11
+
+____
+H2A.V
+_____
+
+Adjusted Expression Bargraph
+
