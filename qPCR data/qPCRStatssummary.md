@@ -321,3 +321,117 @@ _____
 
 Adjusted Expression Bargraph
 
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7152015b/adjexprH2AV.jpeg)
+
+Adjusted Expression Boxplot
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7152015b/adjboxplotH2AV.jpeg)
+
+Stats Summary
+
+No Significant Differences found using Two Way ANOVA, One Way ANOVA, and T-Tests
+
+____
+H3.3
+____
+
+Adjusted Expression Bargraph
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7152015/adjexprH33.jpeg)
+
+Adjusted Expression Boxplot
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7152015/adjboxplotH33.jpeg)
+
+Stats Summary
+
+Call:
+aov(formula = expression ~ Pop, data = rep2res2[Treat == "C"])
+
+Terms:
+                         Pop    Residuals
+
+Sum of Squares  1.897027e-17 4.628055e-17
+
+Deg. of Freedom            2           21
+
+Residual standard error: 1.484532e-09
+
+Estimated effects may be unbalanced
+
+Tukey multiple comparisons of means
+
+95% family-wise confidence level
+
+Fit: aov(formula = expression ~ Pop, data = rep2res2[Treat == "C"])
+
+Pop
+
+diff           lwr          upr     p adj
+
+**N-H  1.991789e-09  1.208552e-10 3.862723e-09 0.0356128**
+
+S-H  2.333278e-10 -1.637606e-09 2.104262e-09 0.9471240
+
+S-N -1.758461e-09 -3.629395e-09 1.124726e-10 0.0679234
+
+
+aov(formula = expression ~ Pop, data = rep2res2[Treat == "T"])
+
+Terms:
+ 
+Pop    Residuals
+
+Sum of Squares  3.946652e-18 9.305185e-18
+
+Deg. of Freedom            2           21
+
+Residual standard error: 6.656606e-10
+
+Estimated effects may be unbalanced
+
+Tukey multiple comparisons of means
+
+95% family-wise confidence level
+
+Fit: aov(formula = expression ~ Pop, data = rep2res2[Treat == "T"])
+
+$Pop
+
+diff           lwr           upr     p adj
+
+**N-H -8.886447e-10 -1.727567e-09 -4.972258e-11 0.0366367**
+
+S-H -5.996542e-11 -8.988876e-10  7.789567e-10 0.9822790
+
+**S-N  8.286793e-10 -1.024284e-11  1.667601e-09 0.0532511**
+
+T-TEST for FIDALGO
+
+Welch Two Sample t-test
+
+data:  expression by Treat
+
+**t = 2.9287, df = 7.12, p-value = 0.02165**
+
+alternative hypothesis: true difference in means is not equal to 0
+
+95 percent confidence interval:
+ 4.908920e-10 4.534766e-09
+
+sample estimates:
+
+mean in group C = 2.759142e-09     
+mean in group T = 2.463125e-10
+
+
+_____
+Elongation Factor
+____
+
+No amplification in qPCR. Nothing to analyze. 
+
+
+_____
+TLR
+_____
