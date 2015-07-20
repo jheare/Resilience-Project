@@ -435,3 +435,80 @@ No amplification in qPCR. Nothing to analyze.
 _____
 TLR
 _____
+
+Adjusted Expression Bargraph
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7132015b/adjexprTLR.jpeg)
+
+Adjusted Expression Boxplot 
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7132015b/adjboxplotTLR.jpeg)
+
+No significant differences 
+
+_____
+Actin
+____
+Adjusted Expression Bargraph
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/762015b/adjexprActin.jpeg)
+
+Adjusted Expression Boxplot
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/762015b/adjboxplotActin.jpeg)
+
+T-Test for DABOB
+
+Welch Two Sample t-test
+
+data:  avgexpr by treat
+
+**t = 2.2989, df = 8.507, p-value = 0.04869**
+
+alternative hypothesis: true difference in means is not equal to 0
+
+95 percent confidence interval:
+ 9.190714e-12 2.535167e-09
+
+sample estimates:
+
+mean in group C = 2.161641e-09     
+mean in group T = 8.894622e-10
+
+T-TEST for FIDALGO
+
+Welch Two Sample t-test
+
+data:  avgexpr by treat
+
+**t = 2.3056, df = 7.506, p-value = 0.0521**
+
+alternative hypothesis: true difference in means is not equal to 0
+
+95 percent confidence interval:
+ -3.957277e-11  6.776319e-09
+
+sample estimates:
+
+mean in group C = 4.339249e-09     
+mean in group T = 9.708765e-10
+
+T-Test for Oyster Bay
+
+Welch Two Sample t-test
+
+data:  avgexpr by treat
+
+**t = 2.3952, df = 7.81, p-value = 0.04423**
+
+alternative hypothesis: true difference in means is not equal to 0
+
+95 percent confidence interval:
+ 5.737458e-11 3.402503e-09
+
+sample estimates:
+
+mean in group C = 2.352334e-09     
+mean in group T = 6.223954e-10
+
+
