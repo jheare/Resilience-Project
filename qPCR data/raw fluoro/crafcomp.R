@@ -148,9 +148,27 @@ craf<-craf[which(craf$pop!=c("NT","**NT")),]
 craf<-craf[which(craf$pop!=c("NT","**NT")),]
 
 ggplot(craf, aes(x=treat,y=avgexpr, fill=pop))+geom_boxplot()
+ggplot(craf, aes(x=name, y=avgexpr, fill=pop))+geom_bar(stat="identity")
 
 ggplot(craf, aes(x=pop,y=avgexpr, fill=treat))+geom_boxplot()
 
 fit<-aov(avgexpr~pop+treat+pop:treat,data=craf)
 fit
 TukeyHSD(fit)
+
+fit2<-aov(avgexpr ~ pop, data=craf[which(craf$treat=="C"),])
+fit2
+TukeyHSD(fit2)
+
+fit3<-aov(avgexpr~pop, data=craf[which(craf$treat=="T"),])
+fit3
+TukeyHSD(fit3)
+
+fit4<-t.test(avgexpr~treat, data=craf[which(craf$pop=="H"),])
+fit4
+
+fit5<-t.test(avgexpr~treat, data=craf[which(craf$pop=="N"),])
+fit5
+
+fit6<-t.test(avgexpr~treat, data=craf[which(craf$pop=="S"),])
+fit6

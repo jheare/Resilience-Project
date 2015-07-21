@@ -270,15 +270,37 @@ actstandard$rep2.expr<-as.numeric(as.character(actstandard$rep2.expr))
 actstandard$rep3.expr<-as.numeric(as.character(actstandard$rep3.expr))
 actstandard$rep4.expr<-as.numeric(as.character(actstandard$rep4.expr))
 
+
+
 actstandard$avgexpr<-rowMeans(actstandard[,c("rep1.expr","rep2.expr","rep3.expr","rep4.expr")],na.rm=F)
 
 actstandard<-actstandard[which(actstandard$pop!=c("NT")),]
 
 ggplot(actstandard, aes(x=treat,y=avgexpr, fill=pop))+geom_boxplot()
+ggplot(actstandard, aes(x=name, y=avgexpr, fill=pop))+geom_bar(stat="identity")
 
 ggplot(actstandard, aes(x=pop,y=avgexpr, fill=pop))+geom_boxplot()
 
 fit<-aov(avgexpr~pop+treat+pop:treat,data=actstandard)
 fit
 TukeyHSD(fit)
+
+fit2<-aov(avgexpr ~ pop, data=actstandard[which(actstandard$treat == "C"), ])
+fit2
+TukeyHSD(fit2)
+
+fit3<-aov(avgexpr~pop, data=actstandard[which(actstandard$treat == "T"), ])
+fit3
+TukeyHSD(fit3)
+
+fit4<-t.test(avgexpr~treat, data=actstandard[which(actstandard$pop=="H"),])
+fit4
+
+fit5<-t.test(avgexpr~treat, data=actstandard[which(actstandard$pop=="N"),])
+fit5
+
+fit6<-t.test(avgexpr~treat, data=actstandard[which(actstandard$pop=="S"),])
+fit6
+
+
 

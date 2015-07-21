@@ -147,9 +147,27 @@ carm$avgexpr<-rowMeans(carm[,c("rep1.expr","rep2.expr")],na.rm=F)
 carm<-carm[which(carm$pop!=c("NT")),]
 
 ggplot(carm, aes(x=treat,y=avgexpr, fill=pop))+geom_boxplot()
+ggplot(carm, aes(x=name, y=avgexpr, fill=pop))+geom_bar(stat="identity")
 
 ggplot(carm, aes(x=pop,y=avgexpr, fill=treat))+geom_boxplot()
 
 fit<-aov(avgexpr~pop+treat+pop:treat,data=carm)
 fit
 TukeyHSD(fit)
+
+fit2<-aov(avgexpr ~ pop, data=carm[which(carm$treat=="C"),])
+fit2
+TukeyHSD(fit2)
+
+fit3<-aov(avgexpr~pop, data=carm[which(carm$treat=="T"),])
+fit3
+TukeyHSD(fit3)
+
+fit4<-t.test(avgexpr~treat, data=carm[which(carm$pop=="H"),])
+fit4
+
+fit5<-t.test(avgexpr~treat, data=carm[which(carm$pop=="N"),])
+fit5
+
+fit6<-t.test(avgexpr~treat, data=carm[which(carm$pop=="S"),])
+fit6

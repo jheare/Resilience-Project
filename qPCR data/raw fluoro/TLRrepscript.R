@@ -143,7 +143,6 @@ tlr<-as.data.frame(cbind(rep1edit$expression,as.character(rep1edit$Names),as.cha
 tlr<-rename(tlr, c(V1="rep1.expr","V2"="name","V3"="pop","V4"="treat"
                      ,"V5"="rep2.expr"))
 
-write.csv(tlr, file="TLRavgexpr.csv")
 
 tlr$rep1.expr<-as.numeric(as.character(tlr$rep1.expr))
 tlr$rep2.expr<-as.numeric(as.character(tlr$rep2.expr))
@@ -154,16 +153,30 @@ tlr$avgexpr<-rowMeans(tlr[,c("rep1.expr","rep2.expr")],na.rm=F)
 
 tlr<-tlr[which(tlr$pop!=c("NT")),]
 
-
-tlr<-tlr[which(tlr$avgexpr!=c("NA")),]
-
-tlr<-tlr[tlr$avgexpr<=.0001,]
+tlr<-tlr[which(tlr$avgexpr<=.00000001),]
 
 ggplot(tlr, aes(x=treat,y=avgexpr, fill=pop))+geom_boxplot()
+ggplot(tlr, aes(x=name,y=avgexpr, fill=pop))+geom_bar(stat="identity")
 
 ggplot(tlr, aes(x=pop,y=avgexpr, fill=treat))+geom_boxplot()
 
 fit<-aov(avgexpr~pop+treat+pop:treat,data=tlr)
 fit
-
 TukeyHSD(fit)
+
+fit2<-aov(avgexpr ~ pop, data=tlr[which(tlr$treat=="C"),])
+fit2
+TukeyHSD(fit2)
+
+fit3<-aov(avgexpr~pop, data=tlr[which(tlr$treat=="T"),])
+fit3
+TukeyHSD(fit3)
+
+fit4<-t.test(avgexpr~treat, data=tlr[which(tlr$pop=="H"),])
+fit4
+
+fit5<-t.test(avgexpr~treat, data=tlr[which(tlr$pop=="N"),])
+fit5
+
+fit6<-t.test(avgexpr~treat, data=tlr[which(tlr$pop=="S"),])
+fit6

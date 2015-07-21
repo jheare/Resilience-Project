@@ -4,7 +4,7 @@ require(ggplot2)
 require(splitstackshape)
 
 
-rep2<-read.csv("HSPb11rawfluoro.csv", header = T)
+rep2<-read.csv("GRB2rawfluoro.csv", header = T)
 rep2$X<-NULL
 rep2<-rename(rep2, c("Cycle" = "Cycles", "A1" = "H_C_1", "A2" = "N_C_1",
                      "A3"= "S_C_1", "A4"="H_T_1", "A5"="N_T_1","A6"="S_T_1",
@@ -49,7 +49,7 @@ rep2res2$expression<-expr(rep2res2$sig.eff, rep2res2$sig.cpD2)
 
 rep2res2<-rep2res2[which(rep2res2$Pop!=c("NT")),]
 
-rep2res2<-rep2res2[rep2res2$expression<=.000000001,]
+rep2res2<-rep2res2[rep2res2$expression<=.00000001,]
 
 ggplot(rep2res2, aes(x=Names,y=expression, fill=Pop))+geom_bar(stat="identity")
 ggplot(rep2res2, aes(x=Treat, y=expression, fill=Pop))+geom_boxplot()

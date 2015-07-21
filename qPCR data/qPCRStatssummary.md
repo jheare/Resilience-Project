@@ -512,3 +512,98 @@ mean in group C = 2.352334e-09
 mean in group T = 6.223954e-10
 
 
+____
+CRAF
+____
+Adjusted Expression Bargraph
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/772015b/adjexprCRAF.jpeg)
+
+Adjusted Expression Boxplot
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/772015b/adjboxplotCRAF.jpeg)
+
+Stats Summary
+
+One Way ANOVA comparing Population Controls
+
+
+ pop    Residuals
+
+Sum of Squares  2.718845e-20 4.549584e-20
+
+Deg. of Freedom            2           21
+
+Residual standard error: 4.654534e-11
+
+Estimated effects may be unbalanced
+
+95% family-wise confidence level
+
+$pop
+
+diff           lwr          upr     p adj
+
+N-H 7.918367e-12 -5.074203e-11 6.657877e-11 0.9383664
+
+S-H 7.502823e-11  1.636783e-11 1.336886e-10 **0.0108836**
+
+S-N 6.710986e-11  8.449462e-12 1.257703e-10 **0.0231716**
+
+________
+CARM
+________
+
+Adjusted Expression Bargraph
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/782015b/adjexprCARM.jpeg)
+
+Adjusted Expression Boxplot
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/782015b/adjboxplotCARM.jpeg)
+
+One Way ANOVA comparing Population Controls
+
+pop    Residuals
+
+Sum of Squares  6.735418e-21 8.077772e-21
+
+Deg. of Freedom            2           21
+
+Residual standard error: 1.961264e-11
+
+Estimated effects may be unbalanced
+
+95% family-wise confidence level
+
+$pop
+
+diff           lwr          upr     p adj
+
+N-H 2.145712e-11 -3.260400e-12 4.617465e-11 0.0966125
+
+**S-H 4.102022e-11  1.630270e-11 6.573775e-11 0.0011709**
+
+S-N 1.956310e-11 -5.154424e-12 4.428062e-11 0.1381516
+
+
+
+
+T-Test for Dabob Population
+
+Welch Two Sample t-test
+
+data:  avgexpr by treat
+
+**t = -2.6739, df = 7.362, p-value = 0.03038**
+
+alternative hypothesis: true difference in means is not equal to 0
+
+95 percent confidence interval:
+ -1.254640e-10 -8.322195e-12
+
+sample estimates:
+
+mean in group C = 1.519137e-11     
+mean in group T = 8.208448e-11
+
