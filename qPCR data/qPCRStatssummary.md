@@ -607,3 +607,118 @@ sample estimates:
 mean in group C = 1.519137e-11     
 mean in group T = 8.208448e-11
 
+________
+GRB2
+______
+
+Adjusted Expression Bargraph
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7202015/adjexprGRB2.jpeg)
+
+Adjusted Expression Boxplot
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7202015/adjboxplotGRB2.jpeg)
+
+Stats Summary
+
+Two Way ANOVA 
+Call:
+   aov(formula = expression ~ Pop + Treat + Pop:Treat, data = rep2res2)
+
+Terms:
+
+Pop        Treat    Pop:Treat    Residuals
+
+Sum of Squares  1.209760e-20 4.221308e-19 7.201400e-21 6.405789e-19
+
+Deg. of Freedom            2            1            2           42
+
+Residual standard error: 1.234985e-10
+
+Estimated effects may be unbalanced
+
+Tukey multiple comparisons of means
+
+95% family-wise confidence level
+
+$Pop
+                 p adj
+N-H   0.9388267
+S-H  0.8500743
+S-N  0.6540849
+
+$Treat
+              p adj
+**T-C  4.5e-06**
+
+$`Pop:Treat`
+                 diff           lwr           upr     p adj
+N:C-H:C  0.9998943
+S:C-H:C  0.9793619
+**H:T-H:C  0.0109104**
+N:T-H:C  0.0674973
+S:T-H:C  0.0093246
+S:C-N:C 0.9967000
+H:T-N:C  0.0205525
+N:T-N:C  0.1139468
+S:T-N:C  0.0176867
+H:T-S:C  0.0672949
+N:T-S:C  0.2845566
+**S:T-S:C  0.0589259**
+N:T-H:T   0.9791965
+S:T-H:T  0.9999999
+S:T-N:T  0.9709791
+
+T-Test for DABOB
+
+Welch Two Sample t-test
+
+data:  expression by Treat
+
+**t = 2.9537, df = 7.1, p-value = 0.02095**
+
+alternative hypothesis: true difference in means is not equal to 0
+
+95 percent confidence interval:
+ 4.449457e-11 3.966833e-10
+
+sample estimates:
+
+mean in group C = 2.429139e-10     
+mean in group T = 2.232492e-11
+
+T-Test for FIDALGO
+
+Welch Two Sample t-test
+
+data:  expression by Treat
+
+**t = 2.6905, df = 9.489, p-value = 0.02369**
+
+alternative hypothesis: true difference in means is not equal to 0
+
+95 percent confidence interval:
+ 2.685431e-11 2.971352e-10
+
+sample estimates:
+
+mean in group C = 2.284042e-10     
+mean in group T = 6.640939e-11
+
+T-Test for Oyster Bay
+
+Welch Two Sample t-test
+
+data:  expression by Treat
+
+**t = 3.8083, df = 7.192, p-value = 0.006313**
+
+alternative hypothesis: true difference in means is not equal to 0
+
+95 percent confidence interval:
+ 6.887209e-11 2.913015e-10
+
+sample estimates:
+
+mean in group C =  1.989093e-10    
+mean in group T =  1.882251e-11
