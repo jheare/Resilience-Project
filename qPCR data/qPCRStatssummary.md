@@ -722,3 +722,47 @@ sample estimates:
 
 mean in group C =  1.989093e-10    
 mean in group T =  1.882251e-11
+
+______
+p29ING
+______
+
+Adjusted Expression Bargraph
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7202015b/adjexprp29ING.jpeg)
+
+Adjusted Expression Boxplot
+
+![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7202015b/adjboxplotp29ING.jpeg)
+
+Stats Summary
+
+One Way ANOVA comparing Population Controls 
+
+
+
+
+Pop    Residuals
+
+Sum of Squares  1.026249e-21 2.641735e-21
+
+Deg. of Freedom            2           21
+
+Residual standard error: 1.121592e-11
+
+Estimated effects may be unbalanced
+
+Tukey multiple comparisons of means
+
+95% family-wise confidence level
+
+
+$Pop
+
+diff           lwr          upr     p adj
+
+N-H  0.1997946
+
+S-H   0.5595058
+
+**S-N   0.0263669**
