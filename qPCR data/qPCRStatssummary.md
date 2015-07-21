@@ -13,6 +13,9 @@ Adjusted Expression Boxplot
 
 Stats Summary
 
+**- Oyster Bay Treatment/Control Different**
+
+
 T-TEST FOR OYSTER BAY
 
  Welch Two Sample t-test
@@ -45,6 +48,13 @@ Adjusted Expression Boxplot
 ![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7172015b/adjboxplotPGEEP4.jpeg)
 
 Stats Summary
+
+**- Dabob Treatment/Control Different**
+
+**- Fidalgo Treatment/Control Different**
+
+**- Oyster Bay Treatment/Control Different**
+
 
 T-TEST for DABOB 
 
@@ -115,6 +125,9 @@ Adjusted Expression Boxplot
 
 Stats Summary
 
+**- Fidalgo Bay Control Different from Dabob and Oyster Bay Controls**
+
+
 ONE WAY ANOVA for CONTROL
 
 Call:
@@ -156,6 +169,13 @@ Adjusted Expression Boxplot
 ![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7152015c/adjboxplotH2A.jpeg)
 
 Stats Summary
+
+**- Oyster Bay Control different from Dabob and Fidalgo Controls**
+
+**- Dabob Treatment/Control Different**
+
+**- Fidalgo Treatment/Control Different**
+
 
 Call:
    aov(formula = expression ~ Pop, data = rep2res2[Treat == "T"])
@@ -231,6 +251,8 @@ Adjusted Expression Boxplot
 
 Stats Summary
 
+**- Fidalgo Treatment/Control Different**
+
 T-Test for FIDALGO
 
 Welch Two Sample t-test
@@ -264,6 +286,8 @@ Adjusted Expression Boxplot
 
 Stats Summary
 
+**- Fidalgo Treatment/Control Different**
+
 T-TEST for FIDALGO
 
 Welch Two Sample t-test
@@ -296,6 +320,8 @@ Adjusted Expression Boxplot
 ![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7152015c/adjboxplotH2A.jpeg) 
 
 Stats Summary
+
+**- Dabob Treatment/Control Different**
 
 T-TEST for DABOB
 
@@ -344,6 +370,12 @@ Adjusted Expression Boxplot
 ![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/7152015/adjboxplotH33.jpeg)
 
 Stats Summary
+
+**- Fidalgo Control Different than Dabob Control**
+
+**- Fidalgo Treatment Different than Oyster Bay and Dabob Treatment**
+
+**- Fidalgo Control/Treatment Different**
 
 Call:
 aov(formula = expression ~ Pop, data = rep2res2[Treat == "C"])
@@ -457,6 +489,15 @@ Adjusted Expression Boxplot
 
 ![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/762015b/adjboxplotActin.jpeg)
 
+Stat Summary
+
+**- Dabob Treatment/Control Different**
+
+**- Fidalgo Treatment/Control Different**
+
+**- Oyster Bay Treatment/Control Different**
+
+
 T-Test for DABOB
 
 Welch Two Sample t-test
@@ -525,6 +566,9 @@ Adjusted Expression Boxplot
 
 Stats Summary
 
+**- Oyster Bay Control Different than Dabob and Fidalgo**
+
+
 One Way ANOVA comparing Population Controls
 
 
@@ -561,6 +605,13 @@ Adjusted Expression Bargraph
 Adjusted Expression Boxplot
 
 ![](https://github.com/jheare/Resilience-Project/blob/master/qPCR%20data/782015b/adjboxplotCARM.jpeg)
+
+Stats Summary
+
+**- Oyster Bay Control different than Dabob Control**
+
+**- Dabob Treatment/Control Different**
+
 
 One Way ANOVA comparing Population Controls
 
@@ -621,53 +672,12 @@ Adjusted Expression Boxplot
 
 Stats Summary
 
-Two Way ANOVA 
-Call:
-   aov(formula = expression ~ Pop + Treat + Pop:Treat, data = rep2res2)
+**- Dabob Treatment/Control Different**
 
-Terms:
+**- Fidalgo Treatment/Control Different**
 
-Pop        Treat    Pop:Treat    Residuals
+**- Oyster Bay Treatment/Control Different**
 
-Sum of Squares  1.209760e-20 4.221308e-19 7.201400e-21 6.405789e-19
-
-Deg. of Freedom            2            1            2           42
-
-Residual standard error: 1.234985e-10
-
-Estimated effects may be unbalanced
-
-Tukey multiple comparisons of means
-
-95% family-wise confidence level
-
-$Pop
-                 p adj
-N-H   0.9388267
-S-H  0.8500743
-S-N  0.6540849
-
-$Treat
-              p adj
-**T-C  4.5e-06**
-
-$`Pop:Treat`
-                 diff           lwr           upr     p adj
-N:C-H:C  0.9998943
-S:C-H:C  0.9793619
-**H:T-H:C  0.0109104**
-N:T-H:C  0.0674973
-S:T-H:C  0.0093246
-S:C-N:C 0.9967000
-H:T-N:C  0.0205525
-N:T-N:C  0.1139468
-S:T-N:C  0.0176867
-H:T-S:C  0.0672949
-N:T-S:C  0.2845566
-**S:T-S:C  0.0589259**
-N:T-H:T   0.9791965
-S:T-H:T  0.9999999
-S:T-N:T  0.9709791
 
 T-Test for DABOB
 
@@ -737,10 +747,9 @@ Adjusted Expression Boxplot
 
 Stats Summary
 
+**- Oyster Bay Control Different than Fidalgo Control**
+
 One Way ANOVA comparing Population Controls 
-
-
-
 
 Pop    Residuals
 
