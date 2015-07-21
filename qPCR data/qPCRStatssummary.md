@@ -1,6 +1,26 @@
-Quantitative PCR Stats Summary
+#Quantitative PCR Stats Summary
+______
+
+|           | **GABABR** | **PGE/EP4** | **HSPb11** | **BMP2** | **PGRP** | **HSP70** | **H2A** | **H2A.V** | **H3.3** | **TLR** | **Actin** | **CRAF** | **CARM** | **GRB2** | **p29ING** |
+|-----------|------------|-------------|------------|----------|----------|-----------|---------|-----------|----------|---------|-----------|----------|----------|----------|------------|
+| **H:N C** |            |             | X          |          |          |           |         |           | X        |         |           |          |          |          |            |
+| **H:S C** |            |             |            | X        |          |           |         |           |          |         |           | X        | X        |          |            |
+| **N:S C** |            |             | X          | X        |          |           |         |           |          |         |           | X        |          |          | X          |
+| **H:N T** |            |             |            |          |          |           |         |           | X        |         |           |          |          |          |            |
+| **H:S T** |            |             |            |          |          |           |         |           |          |         |           |          |          |          |            |
+| **N:S T** |            |             |            |          |          |           |         |           | X        |         |           |          |          |          |            |
+| **H C:T** |            | X           |            | X        |          |           | X       |           |          |         | X         |          | X        | X        |            |
+| **N C:T** |            | X           |            | X        | X        | X         |         |           | X        |         | X         |          |          | X        |            |
+| **S C:T** | X          | X           |            |          |          |           |         |           |          |         | X         |          |          | X        |            |
+
+
+
+
+
+
+
 ___
-**GABABR**
+###GABABR
 _____
 
 Adjusted Expression Bar Graph
@@ -36,7 +56,7 @@ mean in group C = 2.756637e-12
 mean in group T = 1.021384e-12 
 
 _____
-**PGE/EP4**
+###PGE/EP4
 ____
 
 Adjusted Expression Bar Graph
@@ -112,7 +132,7 @@ mean in group C = 5.278801e-11
 mean in group T = 6.670868e-12 
 
 ___
-HSPb11
+###HSPb11
 ___
 
 Adjusted Expression Bar Graph
@@ -157,7 +177,7 @@ S-H   0.9672109
 
 
 ____
-BMP2
+###BMP2
 ___
 
 Adjusted Expression Bar Graph
@@ -238,7 +258,7 @@ mean in group C = 4.719190e-11
 mean in group T = 4.364791e-12
 
 ___
-PGRP
+###PGRP
 ___
 
 Adjusted Expression Bargraph 
@@ -273,7 +293,7 @@ mean in group T =  6.826683e-14
 
 
 ___
-HSP70
+###HSP70
 ___
 
 Adjusted Expression Bargraph
@@ -308,7 +328,7 @@ mean in group T = 8.08745e-12
 
 
 ____
-H2A
+###H2A
 ____
 
 Adjusted Expression Bargraph
@@ -342,7 +362,7 @@ mean in group C = 4.129758e-12
 mean in group T = 1.526545e-11
 
 ____
-H2A.V
+###H2A.V
 _____
 
 Adjusted Expression Bargraph
@@ -358,7 +378,7 @@ Stats Summary
 No Significant Differences found using Two Way ANOVA, One Way ANOVA, and T-Tests
 
 ____
-H3.3
+###H3.3
 ____
 
 Adjusted Expression Bargraph
@@ -458,14 +478,14 @@ mean in group T = 2.463125e-10
 
 
 _____
-Elongation Factor
+###Elongation Factor
 ____
 
 No amplification in qPCR. Nothing to analyze. 
 
 
 _____
-TLR
+###TLR
 _____
 
 Adjusted Expression Bargraph
@@ -479,7 +499,7 @@ Adjusted Expression Boxplot
 No significant differences 
 
 _____
-Actin
+###Actin
 ____
 Adjusted Expression Bargraph
 
@@ -554,7 +574,7 @@ mean in group T = 6.223954e-10
 
 
 ____
-CRAF
+###CRAF
 ____
 Adjusted Expression Bargraph
 
@@ -595,7 +615,7 @@ S-H 7.502823e-11  1.636783e-11 1.336886e-10 **0.0108836**
 S-N 6.710986e-11  8.449462e-12 1.257703e-10 **0.0231716**
 
 ________
-CARM
+###CARM
 ________
 
 Adjusted Expression Bargraph
@@ -659,7 +679,7 @@ mean in group C = 1.519137e-11
 mean in group T = 8.208448e-11
 
 ________
-GRB2
+###GRB2
 ______
 
 Adjusted Expression Bargraph
@@ -734,7 +754,7 @@ mean in group C =  1.989093e-10
 mean in group T =  1.882251e-11
 
 ______
-p29ING
+###p29ING
 ______
 
 Adjusted Expression Bargraph
