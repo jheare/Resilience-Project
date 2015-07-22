@@ -4,7 +4,7 @@ require(ggplot2)
 require(splitstackshape)
 
 
-rep2<-read.csv("p29INGrawfluoro.csv", header = T)
+rep2<-read.csv("GABABRrawfluoro.csv", header = T)
 rep2$X<-NULL
 rep2<-rename(rep2, c("Cycle" = "Cycles", "A1" = "H_C_1", "A2" = "N_C_1",
                      "A3"= "S_C_1", "A4"="H_T_1", "A5"="N_T_1","A6"="S_T_1",
