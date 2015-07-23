@@ -4,6 +4,10 @@ Run Summary
 
 | **plate_date_ID**    | **Machine** | **gene_target** | **notes**                                               |
 |----------------------|-------------|-----------------|---------------------------------------------------------|
+| [7222015b][7222015b] | Opticon 2   | HSPb11          | CLEAN                                                   |
+| [7222015][7222015]   | BioRAD CFX  | BMP2            | 2/4 NTC amped, product size larger than target          |
+| [7202015b][7202015b] | BioRAD CFX  | p29ING          | 1/4 NTC amped, product size larger than target          |
+| [7202015][7202015]   | BioRAD CFX  | GRB2            | 3/4 NTC amped, product size equal to target             |
 | [7172015c][7172015c] | BioRAD CFX  | GABABR          | CLEAN                                                   |
 | [7172015b][7172015b] | BioRAD CFX  | PGE/EP4         | CLEAN                                                   |
 | [7172015][7172015]   | BioRAD CFX  | HSPb11          | 1/4 NTC amped, product smaller than target              |
@@ -40,7 +44,10 @@ Run Summary
 | [5272015][5272015]   | Opticon 2   | Primer Check 2  | Check of Primer                                         |
 | [5262015][5262015]   | Opticon 2   | Primer Check 1  | Check of Primer                                         |
 
-
+[7222015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7222015b
+[7222015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7222015
+[7202015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7202015b
+[7202015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7202015
 [7172015c]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7172015c
 [7172015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7172015b
 [7172015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7172015
