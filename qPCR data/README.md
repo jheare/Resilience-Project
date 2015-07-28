@@ -4,6 +4,14 @@ Run Summary
 
 | **plate_date_ID**    | **Machine** | **gene_target** | **notes**                                               |
 |----------------------|-------------|-----------------|---------------------------------------------------------|
+| [7242015f][7242015f] | BioRAD CFX  | H3.3            | CLEAN                                                   |
+| [7242015e][7242015e] | BioRAD CFX  | H2A.V           | CLEAN                                                   |
+| [7242015d][7242015d] | Opticon 2   | p29ING          | CLEAN                                                   |
+| [7242015c][7242015c] | Opticon 2   | HSP70           | 2/4 NTC amped, product size larger than target          |
+| [7242015b][7242015b] | Opticon 2   | GRB2            | CLEAN                                                   |
+| [7242015][7242015]   | BioRAD CFX  | H2A             | CLEAN                                                   |
+| [7232015b][7232015b] | Opticon 2   | PGE/EP4         | CLEAN                                                   |
+| [7232015][7232015]   | Opticon 2   | GABABR          | CLEAN                                                   |
 | [7222015b][7222015b] | Opticon 2   | HSPb11          | CLEAN                                                   |
 | [7222015][7222015]   | BioRAD CFX  | BMP2            | 2/4 NTC amped, product size larger than target          |
 | [7202015b][7202015b] | BioRAD CFX  | p29ING          | 1/4 NTC amped, product size larger than target          |
@@ -44,6 +52,15 @@ Run Summary
 | [5272015][5272015]   | Opticon 2   | Primer Check 2  | Check of Primer                                         |
 | [5262015][5262015]   | Opticon 2   | Primer Check 1  | Check of Primer                                         |
 
+
+[7242015f]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7242015f
+[7242015e]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7242015e
+[7242015d]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7242015d
+[7242015c]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7242015c
+[7242015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7242015b
+[7242015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7242015
+[7232015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7232015b
+[7232015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7232015
 [7222015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7222015b
 [7222015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7222015
 [7202015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/7202015b
