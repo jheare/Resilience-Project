@@ -2,7 +2,7 @@ require(qpcR)
 require(plyr)
 require(ggplot2)
 require(splitstackshape)
-
+require(outliers)
 
 rep2<-read.csv("GABABRrawfluoro.csv", header = T)
 rep2$X<-NULL
@@ -21,14 +21,17 @@ rep2<-rename(rep2, c("Cycle" = "Cycles", "A1" = "H_C_1", "A2" = "N_C_1",
                      "H1" = "H_C_8", "H2" = "N_C_8","H3"= "S_C_8", "H4"="H_T_8",
                      "H5"="N_T_8", "H6"="S_T_8"))
 
-rep2ct<-pcrbatch(rep2, fluo=NULL)
+rep2ct<-pcrbatch(rep2, fluo=NULL, type = "cpD2")
+
 
 rep2res<-setNames(data.frame(t(rep2ct)),rep2ct[,1])
 rep2res<-rep2res[-1,]
 
 rep2res$Names<-rownames(rep2res)
+rep3<-rep2res
 
 rep2res2<-cSplit_f(rep2res, splitCols=c("Names"), sep="_", drop = F)
+
 
 rep2res2<-rename(rep2res2, c("Names_1"="Pop", "Names_2"="Treat", "Names_3"="Sample"))
 
@@ -37,6 +40,7 @@ rep2res2$Gene<-rep("H2AV", length(rep2res2))
 rep2res2$sig.eff<-as.numeric(as.character(rep2res2$sig.eff))
 rep2res2$sig.cpD2<-as.numeric(as.character(rep2res2$sig.cpD2))
 
+p29INGct<-rep2res2
 
 ggplot(rep2res2, aes(x=Names,y=sig.cpD2, fill=Pop))+geom_bar(stat="identity")
 
@@ -47,9 +51,10 @@ expr<-function(x,y){
 
 rep2res2$expression<-expr(rep2res2$sig.eff, rep2res2$sig.cpD2)
 
+shapiro.test(rep2res2$sig.eff)
+
 rep2res2<-rep2res2[which(rep2res2$Pop!=c("NT")),]
 
-rep2res2<-rep2res2[rep2res2$expression<=.00000001,]
 
 ggplot(rep2res2, aes(x=Names,y=expression, fill=Pop))+geom_bar(stat="identity")
 ggplot(rep2res2, aes(x=Treat, y=expression, fill=Pop))+geom_boxplot()
