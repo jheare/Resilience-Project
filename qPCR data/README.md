@@ -4,6 +4,15 @@ Run Summary
 
 | **plate_date_ID** | **Machine** | **gene_target** | **notes** |
 |----------------------|-------------|--------------------------|---------------------------------------------------------|
+| [8142015e][8142015e] | BioRAD CFX | BMP2 | Bump in the melt curve |
+| [8142015c][8142015c] | BioRAD CFX | BMP2 | Bump in the melt curve |
+| [8142015b][8142015b] | Opticon 2 | GRB2 | CLEAN |
+| [8142015][8142015] | Opticon 2 | GRB2 | Bump in the melt curve |
+| [8132015c][8132015c] | Opticon 2 | PGEEP4 | CLEAN |
+| [8132015b][8132015b] | Opticon 2 | PGEEP4 | CLEAN |
+| [8132015][8132015] | Opticon 2 | HSP70 | CLEAN |
+| [8122015][8122015] | Opticon 2 | HSP70 | CLEAN |
+| [8112015][8112015] | Opticon 2 | GRB2,PGEEP4,BMP2,EF1d | Cross treatment check |
 | [8102015b][8102015b] | Opticon 2 | EF1d | CLEAN |
 | [8102015b][8102015b] | Opticon 2 | BMP2 | CLEAN |
 | [8102015][8102015] | Opticon 2 | PGEEP4 | CLEAN |
@@ -62,8 +71,15 @@ Run Summary
 | [5272015][5272015] | Opticon 2 | Primer Check 2 | Check of Primer |
 | [5262015][5262015] | Opticon 2 | Primer Check 1 | Check of Primer |
 
-
-
+[8142015e]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8142015e
+[8142015c]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8142015c
+[8142015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8142015b
+[8142015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8142015
+[8132015c]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8132015c
+[8132015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8132015b
+[8132015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8132015
+[8122015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8122015
+[8112015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8112015
 [8102015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8102015b
 [8102015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8102015
 [852015c]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/852015c
