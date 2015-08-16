@@ -4,7 +4,13 @@ Run Summary
 
 | **plate_date_ID** | **Machine** | **gene_target** | **notes** |
 |----------------------|-------------|--------------------------|---------------------------------------------------------|
+| [8152015d][8152015d] | BioRAD CFX | PGRP | CLEAN |
+| [8152015c][8152015c] | Opticon 2 | H2AV | Minor amplification in NTCs, product larger than target |
+| [8152015b][8152015b] | BioRAD CFX | CARM | Failed |
+| [8152015][8152015] | Opticon 2 | Actin | Bump in the melt curve |
+| [8142015f][8142015f] | BioRAD CFX | TLR | CLEAN |
 | [8142015e][8142015e] | BioRAD CFX | BMP2 | Bump in the melt curve |
+| [8142015d][8142015d] | Opticon 2 | TLR | CLEAN |
 | [8142015c][8142015c] | BioRAD CFX | BMP2 | Bump in the melt curve |
 | [8142015b][8142015b] | Opticon 2 | GRB2 | CLEAN |
 | [8142015][8142015] | Opticon 2 | GRB2 | Bump in the melt curve |
@@ -71,6 +77,12 @@ Run Summary
 | [5272015][5272015] | Opticon 2 | Primer Check 2 | Check of Primer |
 | [5262015][5262015] | Opticon 2 | Primer Check 1 | Check of Primer |
 
+[8152015d]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8152015d
+[8152015c]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8152015c
+[8152015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8152015b
+[8152015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8152015
+[8142105f]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8142015f
+[8142015d]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8142015d
 [8142015e]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8142015e
 [8142015c]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8142015c
 [8142015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8142015b
