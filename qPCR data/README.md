@@ -3,7 +3,9 @@
 Run Summary
 
 | **plate_date_ID** | **Machine** | **gene_target** | **notes** |
-|----------------------|-------------|--------------------------|---------------------------------------------------------|
+|----------------------|-------------|--------------------------|----------------------------------------------------------|
+| [8262015b][8262015b] | BioRAD CFX | 28s | Minor amplification in NTCs, product smaller than target |
+| [8262015][8262015] | Opticon 2 | 28s | Minor amplification in NTCs, product larger than target |
 | [8182015c][8182015c] | BioRAD CFX | EF1d | CLEAN |
 | [8182015b][8182015b] | Opticon 2 | EF1d | CLEAN |
 | [8182015][8182015] | Opticon 2 | CARM | CLEAN |
@@ -81,6 +83,8 @@ Run Summary
 | [5272015][5272015] | Opticon 2 | Primer Check 2 | Check of Primer |
 | [5262015][5262015] | Opticon 2 | Primer Check 1 | Check of Primer |
 
+[8262015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8262015b
+[8262015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8262015
 [8182015c]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8182015c
 [8182015b]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8182015b
 [8182015]: https://github.com/jheare/Resilience-Project/tree/master/qPCR%20data/8182015
