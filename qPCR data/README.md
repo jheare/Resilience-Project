@@ -6,7 +6,7 @@ Run Summary
 |----------------------|-------------|--------------------------|----------------------------------------------------------|
 | [8262015b][8262015b] | BioRAD CFX | 28s | Minor amplification in NTCs, product smaller than target |
 | [8262015][8262015] | Opticon 2 | 28s | Minor amplification in NTCs, product larger than target |
-| [8182015c][8182015c] | BioRAD CFX | EF1d | CLEAN |
+| [8182015c][8182015c] | BioRAD CFX | 18s/18s/28s | Primer Check |
 | [8182015b][8182015b] | Opticon 2 | EF1d | CLEAN |
 | [8182015][8182015] | Opticon 2 | CARM | CLEAN |
 | [8152015e][8152015e] | Opticon 2 | CRAF | CLEAN |
