@@ -66,7 +66,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CARMlog,fill=Pop))+
   annotate("text",x=c("C","M","T"), y=0.3, label=c("AB  AB  AB","A  A  A","A  A  B"), size=10)
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=TLRlog, fill=Pop))+
-  annotate("text",x=c("C","M","T"), y=0.6, label=c("AC  AC  AC","A  AB  AB","AB  BC  BC"), size=10)
+  annotate("text",x=c("C","M","T"), y=0.6, label=c("AB  AB  AB","A  AB  AB","AB  B  B"), size=10)
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=H2AVlog,fill=Pop))+
   annotate("text",x=c("C","M","T"), y=0.3, label=c("AB  AB  A","AB  AB  AB","AB  B  B"), size=10)
