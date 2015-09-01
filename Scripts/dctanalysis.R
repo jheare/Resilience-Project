@@ -1,11 +1,16 @@
+#Necessary Packages to manipulate data and plot values. 
 require(plyr)
 require(ggplot2)
 require(splitstackshape)
 
+#Read in mean Ct value table
 dCt<-read.csv("CTvalues83115.csv", header=T)
+#Split SAMPLE_ID column to create columns for population, treatment, and sample number
 dCt<-cSplit(dCt,"SAMPLE_ID", sep= "_", drop=F)
+#rename columns appropriately
 dCt<-rename(dCt,replace=c("SAMPLE_ID_1"="Pop","SAMPLE_ID_2"="Treat","SAMPLE_ID_3"="Sample"))
 
+#divide each target of interest by the mean Ct value of the Actin Normalizing gene
 dCt$CARM<-(dCt$CarmmeanCt/dCt$Actinmeanct)
 dCt$TLR<-(dCt$TLRaverage/dCt$Actinmeanct)
 dCt$CRAF<-(dCt$CRAFctaverage/dCt$Actinmeanct)
@@ -16,6 +21,7 @@ dCt$BMP2<-(dCt$BMP2average/dCt$Actinmeanct)
 dCt$GRB2<-(dCt$GRB2average/dCt$Actinmeanct)
 dCt$PGEEP4<-(dCt$PGEEP4ctav/dCt$Actinmeanct)
 
+#log transform the data to develop normality in data
 dCt$CARMlog<-log(dCt$CARM)
 dCt$TLRlog<-log(dCt$TLR)
 dCt$H2AVlog<-log(dCt$H2AV)
@@ -26,6 +32,7 @@ dCt$GRB2log<-log(dCt$GRB2)
 dCt$PGEEP4log<-log(dCt$PGEEP4)
 dCt$CRAFlog<-log(dCt$CRAF)
 
+#Run ANOVA's on all log transformed data as well as Tukey's Honestly Significant Difference post hoc test
 CARM<-aov(CARMlog~Pop+Treat+Pop:Treat, data=dCt)
 CARM
 TukeyHSD(CARM)
@@ -62,32 +69,63 @@ CRAF<-aov(CRAFlog~Pop+Treat+Pop:Treat, data=dCt)
 CRAF
 TukeyHSD(CRAF)
 
-ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CARMlog,fill=Pop))+
-  annotate("text",x=c("C","M","T"), y=0.3, label=c("AB  AB  AB","A  A  A","A  A  B"), size=10)
+#graph all raw mean Ct values to produce boxplots to visualize data
 
-ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=TLRlog, fill=Pop))+
-  annotate("text",x=c("C","M","T"), y=0.6, label=c("AB  AB  AB","A  AB  AB","AB  B  B"), size=10)
+ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CARM,fill=Pop))+theme_bw()+
+  theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
+        axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
+        legend.position=c(.1,.1),panel.grid.major=element_blank())+
+  labs(x="Treatment", y="target/actin delta Ct")
 
-ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=H2AVlog,fill=Pop))+
-  annotate("text",x=c("C","M","T"), y=0.3, label=c("AB  AB  A","AB  AB  AB","AB  B  B"), size=10)
 
-ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGRPlog,fill=Pop))+
-  annotate("text",x=c("C","M","T"), y=0.5, label=c("AB  A  AB","A  A  A","AB  AB  B"), size=10)
+ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=TLR, fill=Pop))+theme_bw()+
+  theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
+        axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
+        legend.position=c(.1,.1),panel.grid.major=element_blank())+
+  labs(x="Treatment", y="target/actin delta Ct")
 
-ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=HSP70log,fill=Pop))+
-  annotate("text",x=c("C","M","T"), y=0.5, label=c("AB  AB  AB","AB  AB  A","AB  AB  B"), size=10)
+ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=H2AV,fill=Pop))+theme_bw()+
+  theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
+        axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
+        legend.position=c(.1,.1),panel.grid.major=element_blank())+
+  labs(x="Treatment", y="target/actin delta Ct")
 
-ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=BMP2log,fill=Pop))+
-  annotate("text",x=c("C","M","T"), y=0.2, label=c("AB  AB  B","AB  AB  A","AB  AB  AB"), size=10)
+ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGRP,fill=Pop))+theme_bw()+
+  theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
+        axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
+        legend.position=c(.1,.1),panel.grid.major=element_blank())+
+  labs(x="Treatment", y="target/actin delta Ct")
 
-ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=GRB2log,fill=Pop))+
-  annotate("text",x=c("C","M","T"), y=0.2, label=c("AB  A  A","AB  A  B","A  AB  AB"), size=10)
+ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=HSP70,fill=Pop))+theme_bw()+
+  theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
+        axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
+        legend.position=c(.1,.1),panel.grid.major=element_blank())+
+  labs(x="Treatment", y="target/actin delta Ct")
 
-ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGEEP4log,fill=Pop))+
-  annotate("text",x=c("C","M","T"), y=0.35, label=c("A  A  A","A  A  A","A  A  A"), size=10)
+ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=BMP2,fill=Pop))+theme_bw()+
+  theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
+        axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
+        legend.position=c(.1,.1),panel.grid.major=element_blank())+
+  labs(x="Treatment", y="target/actin delta Ct")
 
-ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CRAFlog,fill=Pop))+
-  annotate("text",x=c("C","M","T"), y=0.3, label=c("A  A  A","A  A  A","A  A  A"), size=10)
+ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=GRB2,fill=Pop))+theme_bw()+
+  theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
+        axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
+        legend.position=c(.1,.1),panel.grid.major=element_blank())+
+  labs(x="Treatment", y="target/actin delta Ct")
+
+ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGEEP4,fill=Pop))+theme_bw()+
+  theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
+        axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
+        legend.position=c(.1,.1),panel.grid.major=element_blank())+
+  labs(x="Treatment", y="target/actin delta Ct")
+
+ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CRAF,fill=Pop))+theme_bw()+
+  theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
+        axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
+        legend.position=c(.1,.1),panel.grid.major=element_blank())+
+  labs(x="Treatment", y="target/actin delta Ct")
+
 
 
 
