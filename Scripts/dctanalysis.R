@@ -75,56 +75,56 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CARM,fill=Pop))+theme_bw()+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
         legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="target/actin delta Ct")
+  labs(x="Treatment", y="CARM/actin delta Ct")
 
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=TLR, fill=Pop))+theme_bw()+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
         legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="target/actin delta Ct")
+  labs(x="Treatment", y="TLR/actin delta Ct")
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=H2AV,fill=Pop))+theme_bw()+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
         legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="target/actin delta Ct")
+  labs(x="Treatment", y="H2AV/actin delta Ct")
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGRP,fill=Pop))+theme_bw()+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
         legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="target/actin delta Ct")
+  labs(x="Treatment", y="PGRP/actin delta Ct")
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=HSP70,fill=Pop))+theme_bw()+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
         legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="target/actin delta Ct")
+  labs(x="Treatment", y="HSP70/actin delta Ct")
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=BMP2,fill=Pop))+theme_bw()+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
         legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="target/actin delta Ct")
+  labs(x="Treatment", y="BMP2/actin delta Ct")
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=GRB2,fill=Pop))+theme_bw()+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
         legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="target/actin delta Ct")
+  labs(x="Treatment", y="GRB2/actin delta Ct")
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGEEP4,fill=Pop))+theme_bw()+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
         legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="target/actin delta Ct")
+  labs(x="Treatment", y="PGEEP4/actin delta Ct")
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CRAF,fill=Pop))+theme_bw()+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
         legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="target/actin delta Ct")
+  labs(x="Treatment", y="CRAF/actin delta Ct")
 
 
 
