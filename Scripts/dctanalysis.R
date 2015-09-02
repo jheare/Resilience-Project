@@ -72,59 +72,104 @@ TukeyHSD(CRAF)
 #graph all raw mean Ct values to produce boxplots to visualize data
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CARM,fill=Pop))+theme_bw()+
+  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+                    labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
+  guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
-        legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="CARM/actin delta Ct")
+        legend.position=c(.1,.1),panel.grid.major=element_blank(),
+        legend.key=element_rect(fill=NA))+
+  ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
+  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
 
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=TLR, fill=Pop))+theme_bw()+
+  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+                    labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
+  guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
-        legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="TLR/actin delta Ct")
+        legend.position=c(.1,.1),panel.grid.major=element_blank(),
+        legend.key=element_rect(fill=NA))+
+  ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
+  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=H2AV,fill=Pop))+theme_bw()+
+  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+                    labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
+  guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
-        legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="H2AV/actin delta Ct")
+        legend.position=c(.1,.1),panel.grid.major=element_blank(),
+        legend.key=element_rect(fill=NA))+
+  ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
+  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGRP,fill=Pop))+theme_bw()+
+  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+                    labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
+  guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
-        legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="PGRP/actin delta Ct")
+        legend.position=c(.1,.1),panel.grid.major=element_blank(),
+        legend.key=element_rect(fill=NA))+
+  ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
+  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=HSP70,fill=Pop))+theme_bw()+
+  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+                    labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
+  guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
-        legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="HSP70/actin delta Ct")
+        legend.position=c(.1,.1),panel.grid.major=element_blank(),
+        legend.key=element_rect(fill=NA))+
+  ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
+  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=BMP2,fill=Pop))+theme_bw()+
+  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+                    labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
+  guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
-        legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="BMP2/actin delta Ct")
+        legend.position=c(.1,.1),panel.grid.major=element_blank(),
+        legend.key=element_rect(fill=NA))+
+  ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
+  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=GRB2,fill=Pop))+theme_bw()+
+  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+                    labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
+  guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
-        legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="GRB2/actin delta Ct")
+        legend.position=c(.1,.1),panel.grid.major=element_blank(),
+        legend.key=element_rect(fill=NA))+
+  ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
+  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGEEP4,fill=Pop))+theme_bw()+
+  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+                    labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
+  guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
-        legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="PGEEP4/actin delta Ct")
+        legend.position=c(.1,.1),panel.grid.major=element_blank(),
+        legend.key=element_rect(fill=NA))+
+  ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
+  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CRAF,fill=Pop))+theme_bw()+
+  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+                    labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
+  guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
-        legend.position=c(.1,.1),panel.grid.major=element_blank())+
-  labs(x="Treatment", y="CRAF/actin delta Ct")
+        legend.position=c(.1,.1),panel.grid.major=element_blank(),
+        legend.key=element_rect(fill=NA))+
+  ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
+  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
 
 
 
