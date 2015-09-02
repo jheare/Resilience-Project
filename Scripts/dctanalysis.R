@@ -80,6 +80,8 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CARM,fill=Pop))+theme_bw()+
         legend.position=c(.1,.1),panel.grid.major=element_blank(),
         legend.key=element_rect(fill=NA))+
   ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
+  annotate("text",x=c("C","M","T"), y=1.5, label=c("A", "B", "A"), size=10)+
+  annotate("text",x=c(2.25,3.25), y=1.27, label=c("*","*"), size=12)+
   labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
 
 
@@ -92,7 +94,8 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=TLR, fill=Pop))+theme_bw()+
         legend.position=c(.1,.1),panel.grid.major=element_blank(),
         legend.key=element_rect(fill=NA))+
   ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
-  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
+  annotate("text",x=c("C","M","T"), y=1.5, label=c("A", "B", "A"), size=10)+
+  labs(x="Treatment", y=expression(paste("TLR Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=H2AV,fill=Pop))+theme_bw()+
   scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
@@ -103,7 +106,9 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=H2AV,fill=Pop))+theme_bw()+
         legend.position=c(.1,.1),panel.grid.major=element_blank(),
         legend.key=element_rect(fill=NA))+
   ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
-  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
+  annotate("text",x=c("C","M","T"), y=1.5, label=c("A", "A", "B"), size=10)+
+  annotate("text",x=c(1.25,3.25), y=1.27, label=c("*","*"), size=12)+
+  labs(x="Treatment", y=expression(paste("H2AV Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGRP,fill=Pop))+theme_bw()+
   scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
@@ -114,7 +119,9 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGRP,fill=Pop))+theme_bw()+
         legend.position=c(.1,.1),panel.grid.major=element_blank(),
         legend.key=element_rect(fill=NA))+
   ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
-  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
+  annotate("text",x=c("C","M","T"), y=1.8, label=c("A", "A", "B"), size=10)+
+  annotate("text",x=c(2.25,3.25), y=1.67, label=c("*","*"), size=12)+
+  labs(x="Treatment", y=expression(paste("PGRP Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=HSP70,fill=Pop))+theme_bw()+
   scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
@@ -125,7 +132,9 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=HSP70,fill=Pop))+theme_bw()+
         legend.position=c(.1,.1),panel.grid.major=element_blank(),
         legend.key=element_rect(fill=NA))+
   ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
-  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
+  annotate("text",x=c("C","M","T"), y=1.7, label=c("A", "A", "B"), size=10)+
+  annotate("text",x=c(2.25,3.25), y=1.57, label=c("*","*"), size=12)+
+  labs(x="Treatment", y=expression(paste("HSP70 Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=BMP2,fill=Pop))+theme_bw()+
   scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
@@ -136,7 +145,8 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=BMP2,fill=Pop))+theme_bw()+
         legend.position=c(.1,.1),panel.grid.major=element_blank(),
         legend.key=element_rect(fill=NA))+
   ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
-  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
+  annotate("text",x=c(1.25,2.25), y=1.27, label=c("*","*"), size=12)+
+  labs(x="Treatment", y=expression(paste("BMP2 Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=GRB2,fill=Pop))+theme_bw()+
   scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
@@ -147,7 +157,9 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=GRB2,fill=Pop))+theme_bw()+
         legend.position=c(.1,.1),panel.grid.major=element_blank(),
         legend.key=element_rect(fill=NA))+
   ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
-  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
+  annotate("text",x=c(1.25,2.25), y=1.27, label=c("*","*"), size=12)+
+  annotate("text",x=c(2,2.25), y=1.25, label=c("#","#"), size=7)+
+  labs(x="Treatment", y=expression(paste("GRB2 Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGEEP4,fill=Pop))+theme_bw()+
   scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
@@ -158,7 +170,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGEEP4,fill=Pop))+theme_bw()+
         legend.position=c(.1,.1),panel.grid.major=element_blank(),
         legend.key=element_rect(fill=NA))+
   ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
-  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
+  labs(x="Treatment", y=expression(paste("PGEEP4 Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CRAF,fill=Pop))+theme_bw()+
   scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
@@ -169,7 +181,8 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CRAF,fill=Pop))+theme_bw()+
         legend.position=c(.1,.1),panel.grid.major=element_blank(),
         legend.key=element_rect(fill=NA))+
   ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
-  labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
+  annotate("text",x=c("C","M","T"), y=1.5, label=c("A", "B", "AB"), size=10)+
+  labs(x="Treatment", y=expression(paste("CRAF Expression (",Delta,"Ct)")))
 
 
 
