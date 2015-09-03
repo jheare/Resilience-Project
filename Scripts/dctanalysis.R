@@ -87,14 +87,14 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CARM,fill=Pop))+theme_bw()+
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=TLR, fill=Pop))+theme_bw()+
   scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
-                    labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
+                    labels=c("Dabob Bay (b)","Fidalgo Bay  (a)","Oyster Bay  (a)"))+
   guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
         legend.position=c(.1,.1),panel.grid.major=element_blank(),
         legend.key=element_rect(fill=NA))+
   ylim(c(0.7,1.9))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
-  annotate("text",x=c("C","M","T"), y=1.5, label=c("A", "B", "A"), size=10)+
+  annotate("text",x=c("C","M","T"), y=1.8, label=c("A", "B", "A"), size=10)+
   labs(x="Treatment", y=expression(paste("TLR Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=H2AV,fill=Pop))+theme_bw()+
@@ -150,7 +150,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=BMP2,fill=Pop))+theme_bw()+
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=GRB2,fill=Pop))+theme_bw()+
   scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
-                    labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
+                    labels=c("Dabob Bay  (ab)","Fidalgo Bay  (a)","Oyster Bay   (b)"))+
   guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
         axis.title.x=element_text(size=25), axis.title.y=element_text(size=25),
