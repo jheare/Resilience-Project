@@ -80,7 +80,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CARM,fill=Pop))+theme_bw()+
         legend.position=c(.09,.87),panel.grid.major=element_blank(),
         legend.key=element_rect(fill=NA))+
   ylim(c(0,0.3))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
-  annotate("text",x=c("C","M","T"), y=0.3, label=c("A", "B", "A"), size=10)+
+  annotate("text",x=c("C","M","T"), y=0.3, label=c("A", "A", "B"), size=10)+
   labs(x="Treatment", y=expression(paste("CARM Expression (",Delta,"Ct)")))
 
 
