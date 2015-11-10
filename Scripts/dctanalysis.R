@@ -154,7 +154,6 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=GRB2,fill=Pop))+theme_bw()+
         legend.key=element_rect(fill=NA))+
   ylim(c(0,1.5))+scale_x_discrete(labels=c("Control","Mechanical","Temperature"))+
   annotate("text",x=c(1.25,2.25), y=1.27, label=c("*","*"), size=12)+
-  annotate("text",x=c(2,2.25), y=1.25, label=c("#","#"), size=7)+
   labs(x="Treatment", y=expression(paste("GRB2 Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGEEP4,fill=Pop))+theme_bw()+
