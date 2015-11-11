@@ -72,7 +72,7 @@ TukeyHSD(CRAF)
 #graph all raw mean Ct values to produce boxplots to visualize data
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CARM,fill=Pop))+theme_bw()+
-  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+  scale_fill_grey(start=0, end=.9,
                     labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
   guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
@@ -85,7 +85,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CARM,fill=Pop))+theme_bw()+
 
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=TLR, fill=Pop))+theme_bw()+
-  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+  scale_fill_grey(start=0, end=.9,
                     labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
   guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
@@ -96,7 +96,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=TLR, fill=Pop))+theme_bw()+
   labs(x="Treatment", y=expression(paste("TLR Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=H2AV,fill=Pop))+theme_bw()+
-  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+  scale_fill_grey(start=0, end=.9,
                     labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
   guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
@@ -109,7 +109,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=H2AV,fill=Pop))+theme_bw()+
   labs(x="Treatment", y=expression(paste("H2AV Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGRP,fill=Pop))+theme_bw()+
-  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+  scale_fill_grey(start=0, end=.9,
                     labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
   guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
@@ -120,7 +120,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGRP,fill=Pop))+theme_bw()+
   labs(x="Treatment", y=expression(paste("PGRP Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=HSP70,fill=Pop))+theme_bw()+
-  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+  scale_fill_grey(start=0, end=.9,
                     labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
   guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
@@ -133,7 +133,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=HSP70,fill=Pop))+theme_bw()+
   labs(x="Treatment", y=expression(paste("HSP70 Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=BMP2,fill=Pop))+theme_bw()+
-  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+  scale_fill_grey(start=0, end=.9,
                     labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
   guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
@@ -145,7 +145,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=BMP2,fill=Pop))+theme_bw()+
   labs(x="Treatment", y=expression(paste("BMP2 Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=GRB2,fill=Pop))+theme_bw()+
-  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+  scale_fill_grey(start=0, end=.9,
                     labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
   guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
@@ -157,7 +157,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=GRB2,fill=Pop))+theme_bw()+
   labs(x="Treatment", y=expression(paste("GRB2 Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGEEP4,fill=Pop))+theme_bw()+
-  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+  scale_fill_grey(start=0, end=.9,
                     labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
   guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
@@ -168,7 +168,7 @@ ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=PGEEP4,fill=Pop))+theme_bw()+
   labs(x="Treatment", y=expression(paste("PGEEP4 Expression (",Delta,"Ct)")))
 
 ggplot(data=dCt)+geom_boxplot(aes(x=Treat, y=CRAF,fill=Pop))+theme_bw()+
-  scale_fill_manual(values=c("#CCCCCC","#999999","#666666"),
+  scale_fill_grey(start=0, end=.9,
                     labels=c("Dabob Bay","Fidalgo Bay","Oyster Bay"))+
   guides(fill=guide_legend(title="Population"))+
   theme(axis.text.x=element_text(size=20), axis.text.y=element_text(size=20),
